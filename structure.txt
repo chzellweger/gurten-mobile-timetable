@@ -1,0 +1,20 @@
+new_data.json
+
+helpers ./helpers.js
+  getLiteralDay(day)
+  getDay()
+
+index
+  App
+    ->Landscape ->day'' ->stages[]  ->data{} ->setDay()
+      ->DayChooser ->setDay() ->items[]
+        ->Button ->day'' ->classname'' ->clicked()
+        ->Stage ->stage'' ->data{}
+          ->Show ->showData[] ->insideStage(Bool)
+  App
+    ->Portrait ->day'' ->stages[]  ->data{} ->setDay()
+      ->DayChooser ->setDay() ->items[]
+        ->Button ->day'' ->classname'' ->clicked()
+      ->Day ->day'' ->data[]
+        ->Shows ->day'' ->data[]
+          ->Show ->showData{} ->insideStage(Bool)

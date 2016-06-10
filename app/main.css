@@ -1,0 +1,93 @@
+body {
+  /* background: cornsilk;*/
+ background: #ffffff;
+ font-family: sans-serif;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+
+button {
+  font-weight: bold;
+  font-size: 114%;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+
+.app {
+  width: 100%;
+}
+
+.day-name {
+  padding: 10px 0 10px 6px;
+}
+
+.stages {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.stage {
+  padding-top: 10px;
+  -webkit-flex-grow: 1;
+  padding-left: 6px;
+}
+
+.stage-name {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  text-decoration: underline;
+  text-decoration-line: dotted;
+}
+
+.shows {
+ /* max-width: 470px;*/
+}
+
+.show {
+  margin-bottom: 10px;
+  border-style: dotted;
+  border-width: 1px;
+  padding-left: 5px;
+}
+
+.do {
+  background-color: #547369;
+  color: white;
+}
+
+.fr {
+  background-color: #fc9833;
+}
+
+.sa {
+  background-color: #6e5d4a;
+  color: white;
+}
+
+.Main-Stage {
+  background-color: #f89848;
+  color: black;
+  order: 1;
+}
+
+.Haus {
+  background-color: #ffffff;
+  color: black;
+  order: 3;
+}
+
+.B-Stage {
+  background-color: #fdc99b;
+  color: black; 
+  order: 2;
+}
+
+.band {
+  font-size: 20px;
+}
