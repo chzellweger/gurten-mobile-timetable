@@ -79,7 +79,7 @@ plugins: [
         //
         // 0.0.0.0 is available to all network devices
         // unlike default localhost
-        host: process.env.HOST,
+        host: process.env.HOST || '0.0.0.0',
         port: process.env.PORT
 
         // If you want defaults, you can use a little trick like this
