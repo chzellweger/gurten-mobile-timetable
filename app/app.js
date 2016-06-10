@@ -74,7 +74,7 @@ export default class App extends Component {
       renderOrientationView =
         (<Landscape
           day={this.state.day}
-          stages={['Main-Stage', 'B-Stage', 'Haus']}
+          stages={['Hauptbühne', 'Zeltbühne', 'Waldbühne']}
           setDay={this.setDay}
           data={this.state.data}
         />);

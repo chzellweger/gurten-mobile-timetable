@@ -6,9 +6,12 @@ function getLiteralDay(day) {
     literalDay = 'Donnerstag';
   } else if (thisDay === 'fr') {
     literalDay = 'Freitag';
-  } else {
+  } else if (thisDay === 'sa') {
     literalDay = 'Samstag';
+  } else {
+    literalDay = 'Sonntag'
   }
+  
   return literalDay;
 }
 

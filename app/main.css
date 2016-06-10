@@ -70,19 +70,19 @@ button {
   color: white;
 }
 
-.Main-Stage {
+.Hauptbühne {
   background-color: #f89848;
   color: black;
   order: 1;
 }
 
-.Haus {
+.Zeltbühne {
   background-color: #ffffff;
   color: black;
   order: 3;
 }
 
-.B-Stage {
+.Waldbühne {
   background-color: #fdc99b;
   color: black; 
   order: 2;

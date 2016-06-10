@@ -19,7 +19,7 @@ function Portrait(props) {
     <div className="portrait">
       <DayChooser
         setDay={props.setDay}
-        items={['do', 'fr', 'sa']}
+        items={['do', 'fr', 'sa', 'so']}
       />
       <Day
         day={props.day}

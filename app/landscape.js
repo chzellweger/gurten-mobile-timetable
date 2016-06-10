@@ -32,7 +32,7 @@ function Landscape(props) {
     <div className="landscape">
       <DayChooser
         setDay={props.setDay}
-        items={['do', 'fr', 'sa']}
+        items={['do', 'fr', 'sa', 'so']}
       />
       <div>
         <div className="stages-container">
