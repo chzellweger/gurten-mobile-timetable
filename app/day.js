@@ -9,11 +9,12 @@ const propTypes = {
 
 function Day(props) {
   let literalDay = getLiteralDay(props.day);
+  let thisLiteralDay = literalDay.long;
 
   return (
     <div className={`day ${props.day}`}>
       <Shows
-        day={literalDay}
+        day={thisLiteralDay}
         data={props.data}
       />
     </div>

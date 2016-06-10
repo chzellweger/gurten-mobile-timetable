@@ -9,6 +9,7 @@ const propTypes = {
 
 function Button(props) {
   let literalDay = getLiteralDay(props.day);
+  let thisLiteralDay = literalDay.short;
 
   return (
     <button
@@ -16,7 +17,7 @@ function Button(props) {
       className={`${props.day} ${props.className}`}
       onClick={props.clicked}
     >
-      {literalDay}
+      {thisLiteralDay}
     </button>
   );
 }

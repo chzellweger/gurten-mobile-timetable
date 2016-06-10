@@ -1,15 +1,19 @@
 function getLiteralDay(day) {
   const thisDay = day;
-  let literalDay;
+  let literalDay = {};
 
   if (thisDay === 'do') {
-    literalDay = 'Donnerstag';
+    literalDay.long = 'Donnerstag';
+    literalDay.short = 'Don';
   } else if (thisDay === 'fr') {
-    literalDay = 'Freitag';
+    literalDay.long = 'Freitag';
+    literalDay.short = 'Fri';
   } else if (thisDay === 'sa') {
-    literalDay = 'Samstag';
+    literalDay.long = 'Samstag';
+    literalDay.short = 'Sam';
   } else {
-    literalDay = 'Sonntag'
+    literalDay.long = 'Sonntag';
+    literalDay.short = 'Son';
   }
   
   return literalDay;

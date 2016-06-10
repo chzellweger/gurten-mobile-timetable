@@ -15,6 +15,7 @@ const propTypes = {
 
 function Landscape(props) {
   let literalDay = getLiteralDay(props.day);
+  let thisLiteralDay = literalDay.long;
   let selected = jsonQuery(`shows[*day=${props.day}]`, {
     data: props.data
   });
@@ -36,7 +37,7 @@ function Landscape(props) {
       />
       <div>
         <div className="stages-container">
-          <div className={`day-name ${props.day}`}>{literalDay}</div>
+          <div className={`day-name ${props.day}`}>{thisLiteralDay}</div>
           <div className="stages">{children}</div>
         </div>
       </div>
