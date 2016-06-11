@@ -8,6 +8,7 @@ const propTypes = {
 
 function Shows(props) {
   const keys = Object.keys(props.data);
+
   let children = keys.map(key => (
     <Show
       key={key}
