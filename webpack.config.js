@@ -15,7 +15,7 @@ const PATHS = {
   style: path.join(__dirname, 'app/main.css')
 };
 
-//common enviroment for build && production
+// common enviroment for build && production
 
 const common = {
   // Entry accepts a path or an object of entries.
@@ -29,48 +29,48 @@ const common = {
     path: PATHS.build,
     filename: '[name].js'
   },
- 
-module: {
-  loaders: [
-    {
-      test: /.jsx?$/,
-      loader: 'babel-loader',
-      exclude: /node_modules/,
-      query: {
-        presets: ['es2015', 'react']
+
+  module: {
+    loaders: [
+      {
+        test: /.jsx?$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        query: {
+          presets: ['es2015', 'react']
+        }
+      },
+      {
+        test: /\.json$/,
+        loader: 'raw-loader'
       }
-    },
-    {
-      test: /\.json$/,
-      loader: 'raw-loader'
-    }
-  ]
-},
-plugins: [
+    ]
+  },
+  plugins: [
     new HtmlWebpackPlugin({
-      title: 'Kilbi Timetable',
+      title: 'Gurten Timetable',
       template: './template.html'
 
     })
-    ]
-  };
+  ]
+};
 
-  //enviroment for production
+  // enviroment for production
 
-  if(TARGET === 'start' || !TARGET) {
-    module.exports = merge(common, {
-      devtool: 'eval-source-map',
-      devServer: {
+if (TARGET === 'start' || !TARGET) {
+  module.exports = merge(common, {
+    devtool: 'eval-source-map',
+    devServer: {
         // Enable history API fallback so HTML5 History API based
         // routing works. This is a good default that will come
         // in handy in more complicated setups.
-        historyApiFallback: true,
-        hot: true,
-        inline: true,
-        progress: true,
+      historyApiFallback: true,
+      hot: true,
+      inline: true,
+      progress: true,
 
         // Display only errors to reduce the amount of output.
-        stats: 'errors-only',
+      stats: 'errors-only',
 
         // Parse host and port from env to allow customization.
         //
@@ -79,83 +79,83 @@ plugins: [
         //
         // 0.0.0.0 is available to all network devices
         // unlike default localhost
-        host: process.env.HOST || '0.0.0.0',
-        port: process.env.PORT
+      host: process.env.HOST || '0.0.0.0',
+      port: process.env.PORT
 
         // If you want defaults, you can use a little trick like this
         // port: process.env.PORT || 3000
-        },
-        module: {
-          loaders: [
+    },
+    module: {
+      loaders: [
           // Define development specific CSS setup
-            {
-              test: /\.css$/,
-              loaders: ['style', 'css'],
-              include: PATHS.app
-            }
-            ]
-          },
-          plugins: [
+        {
+          test: /\.css$/,
+          loaders: ['style', 'css'],
+          include: PATHS.app
+        }
+      ]
+    },
+    plugins: [
 
-            new webpack.HotModuleReplacementPlugin(),
-            new NpmInstallPlugin({
-              save: true // --save
-            })
-            ]
-          });
-  }
+      new webpack.HotModuleReplacementPlugin(),
 
-//enviroment for build
+      new NpmInstallPlugin({
+        save: true // --save
+      })
+    ]
+  });
+}
 
-  if(TARGET === 'build' || TARGET === 'stats') {
+// enviroment for build
 
-    module.exports = merge(common, {
+if (TARGET === 'build' || TARGET === 'stats') {
+  module.exports = merge(common, {
       // Define vendor entry point needed for splitting
-      entry: {
+    entry: {
         // Set up an entry chunk for our vendor bundle.
         // You can filter out dependencies here if needed with
         // `.filter(...)`.
-        vendor: Object.keys(pkg.dependencies)
-      },
-      output: {
-        path: PATHS.build,
-        filename: '[name].[chunkhash].js',
-        chunkFilename: '[chunkhash].js'
-      },
-      module: {
-        loaders: [
+      vendor: Object.keys(pkg.dependencies)
+    },
+    output: {
+      path: PATHS.build,
+      filename: '[name].[chunkhash].js',
+      chunkFilename: '[chunkhash].js'
+    },
+    module: {
+      loaders: [
         // Extract CSS during build
-          {
-            test: /\.css$/,
-            loader: ExtractTextPlugin.extract('style', 'css'),
-            include: PATHS.app
-          }
-          ]
-        },
-        plugins: [
+        {
+          test: /\.css$/,
+          loader: ExtractTextPlugin.extract('style', 'css'),
+          include: PATHS.app
+        }
+      ]
+    },
+    plugins: [
 
-          new CleanWebpackPlugin([PATHS.build]),
+      new CleanWebpackPlugin([PATHS.build]),
 
-          new ExtractTextPlugin('[name].[chunkhash].css'),
-          
+      new ExtractTextPlugin('[name].[chunkhash].css'),
+
           // Extract vendor and manifest files
-          new webpack.optimize.CommonsChunkPlugin({
-            names: ['vendor', 'manifest']
-          }),
+      new webpack.optimize.CommonsChunkPlugin({
+        names: ['vendor', 'manifest']
+      }),
 
-          new webpack.optimize.UglifyJsPlugin({
-            compress: {
-              warnings: false
-            }
-          }),
+      new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: false
+        }
+      }),
 
-          new webpack.DefinePlugin({
-            'process.env.NODE_ENV': '"production"'
+      new webpack.DefinePlugin({
+        'process.env.NODE_ENV': '"production"'
             // You can set this to '"development"' or
             // JSON.stringify('development') for your
             // development target to force NODE_ENV to development mode
             // no matter what
-          })
-          ]
-        });
-  }
+      })
+    ]
+  });
+}

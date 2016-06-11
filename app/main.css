@@ -1,14 +1,19 @@
 body {
   /* background: cornsilk;*/
- background: #ffffff;
- font-family: sans-serif;
+ background: #000000;
+ font-family: DIN-black, sans-serif;
+ font-size: 16px;
 }
 
-/*
-h1 {
-  color: #00dcdc;
+@media (max-width: 540px) and (max-height: 320px) {
+  body {
+    font-size: 10px;
+  }
 }
-*/
+
+h1 {
+  color: #ffffff;
+}
 
 .buttons {
   width: 100%;
@@ -18,7 +23,7 @@ h1 {
 
 button {
   font-weight: bold;
-  font-size: 114%;
+  font-size: 1.06em;
   flex-grow: 1;
   -webkit-flex-grow: 1;
 }
@@ -29,6 +34,7 @@ button {
 
 .day-name {
   padding: 10px 0 10px 6px;
+  font-size: 1.25em;
 }
 
 .stages {
@@ -41,10 +47,11 @@ button {
   padding-top: 10px;
   -webkit-flex-grow: 1;
   padding-left: 6px;
+  padding-right: 6px;
 }
 
 .stage-name {
-  font-size: 30px;
+  font-size: 2em;
   margin-bottom: 10px;
   margin-left: 2px;
   text-decoration: underline;
@@ -81,23 +88,23 @@ button {
 }
 
 .Hauptbühne {
-  background-color: #f89848;
+  background-color: #f90784;
   color: black;
   order: 1;
 }
 
 .Zeltbühne {
-  background-color: #ffffff;
+  background-color: #3271cb;
   color: black;
   order: 3;
 }
 
 .Waldbühne {
-  background-color: #fdc99b;
-  color: black; 
+  background-color: #4ec2dc;
+  color: #ffffff; 
   order: 2;
 }
 
 .band {
-  font-size: 20px;
+  font-size: 1.25em;
 }
