@@ -4,6 +4,12 @@ body {
  font-family: sans-serif;
 }
 
+/*
+h1 {
+  color: #00dcdc;
+}
+*/
+
 .buttons {
   width: 100%;
   display: flex;
