@@ -8,7 +8,7 @@ const propTypes = {
 };
 
 function Day(props) {
-  let literalDay = getLiteralDay(props.day);
+  const literalDay = getLiteralDay(props.day);
   let thisLiteralDay = literalDay.long;
 
   return (
