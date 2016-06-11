@@ -19,9 +19,7 @@ class Show extends Component {
 
   handleModal() {
     this.setState(
-      {
-        modalOpen: !this.state.modalOpen
-      }
+      { modalOpen: !this.state.modalOpen }
     );
   }
 
