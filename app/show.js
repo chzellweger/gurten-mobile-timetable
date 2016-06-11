@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Modal from './modal.js';
 
 const propTypes = {
   showData: React.PropTypes.object.isRequired,
@@ -9,43 +10,41 @@ class Show extends Component {
   constructor(props) {
     super(props);
 
-    this.openModal = this.openModal.bind(this);
+    this.state = {
+      modalOpen: false
+    };
+
+    this.handleModal = this.handleModal.bind(this);
   }
 
-  openModal(e) {
-    console.log(e);
-    const element = e.target;
-    element.style.display = 'block';
+  handleModal() {
+    this.setState(
+      {
+        modalOpen: !this.state.modalOpen
+      }
+    );
   }
 
   render() {
-    if (this.props.insideStage) {
-      return (
-        <div className="show" onClick={this.openModal}>
-          <div className="show-time">{this.props.showData.time}</div>
-          <div className="show-name band">{this.props.showData.name}</div>
-
-          <div className="modal">
-            <div className="modal-title">{this.props.showData.name}</div>
-            <div className="modal-text">{this.props.showData.description}</div>
-          </div>
-
-        </div>
-      );
+    if (this.state.modalOpen) {
+      return <Modal content={this.props.showData} handleModal={this.handleModal} />;
     } else {
-      return (
-        <div className="show" onClick={this.openModal}>
-          <div className="show-time">{this.props.showData.time}</div>
-          <div className="show-name band">{this.props.showData.name}</div>
-          <div className="show-stage">{this.props.showData.stage}</div>
-
-          <div className="modal">
-            <div className="modal-title">{this.props.showData.name}</div>
-            <div className="modal-text">{this.props.showData.description}</div>
+      if (this.props.insideStage) {
+        return (
+          <div className="show" onClick={this.handleModal}>
+            <div className="show-time">{this.props.showData.time}</div>
+            <div className="show-name band">{this.props.showData.name}</div>
           </div>
-
-        </div>
-      );
+        );
+      } else {
+        return (
+          <div className="show" onClick={this.handleModal}>
+            <div className="show-time">{this.props.showData.time}</div>
+            <div className="show-name band">{this.props.showData.name}</div>
+            <div className="show-stage">{this.props.showData.stage}</div>
+          </div>
+        );
+      }
     }
   }
 }
