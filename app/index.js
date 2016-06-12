@@ -1,5 +1,6 @@
 
 // define your settings in config.js and import it
+
 import config from './config';
 
 import React from 'react';
