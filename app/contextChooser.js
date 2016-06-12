@@ -7,13 +7,14 @@ const propTypes = {
 };
 
 function ContextChooser(props) {
-  let clicked = props.setContext;
+  let clickHandler = props.setContext;
   let children = props.items.map(key => (
     <Button
       key={key}
+      id={key}
       name={key}
       className="button"
-      clicked={clicked}
+      clickHandler={clickHandler}
     />
   ));
 

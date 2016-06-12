@@ -1,6 +1,6 @@
 body {
   /* background: cornsilk;*/
- background: #ffffff;
+ background: gray;
  font-family: DIN-black, sans-serif;
  font-size: 16px;
 }
@@ -69,12 +69,12 @@ button {
   padding-left: 5px;
 }
 
-.do {
+.do, .stages {
   background-color: #547369;
   color: white;
 }
 
-.fr {
+.fr, .tents {
   background-color: #fc9833;
 }
 
@@ -87,22 +87,22 @@ button {
   background-color: white;
 }
 
-.Hauptbühne {
+.Hauptbühne, .Bamboo {
   background-color: #f90784;
   color: black;
   order: 1;
 }
 
-.Zeltbühne {
+.Zeltbühne, .Block {
   background-color: #3271cb;
   color: black;
-  order: 3;
+  order: 2;
 }
 
-.Waldbühne {
+.Waldbühne, .Bacardi {
   background-color: #4ec2dc;
   color: #ffffff; 
-  order: 2;
+  order: 3;
 }
 
 .band {
