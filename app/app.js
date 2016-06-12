@@ -60,7 +60,11 @@ export default class App extends Component {
   setContext(e) {
     console.log(e.target.id);
     const clickedContext = e.target.id;
-    this.setState({ context: clickedContext });
+    if (clickedContext === 'stages') {
+      this.setState({ data: JSON.parse(DataStages) });
+    } else {
+      this.setState({ data: JSON.parse(DataTents) });
+    }
   }
 
   render() {
