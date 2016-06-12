@@ -7,7 +7,8 @@ import Portrait from './portrait';
 
 import { getDay } from './helpers';
 
-import Data from './new_data';
+import DataStages from './data-stages';
+import DataTents from './data-tents';
 
 export default class App extends Component {
   constructor(props) {
@@ -16,18 +17,18 @@ export default class App extends Component {
     this.state = {
       day: 'do',
       orientation: 'portrait',
-      data: {}
+      context: 'stages',
+      data: JSON.parse(DataStages)
     };
 
     this.setDay = this.setDay.bind(this);
+    this.setContext = this.setContext.bind(this);
   }
 
   componentWillMount() {
     const thisDay = getDay();
-    const thisData = JSON.parse(Data);
 
     this.setState({
-      data: thisData,
       day: thisDay
     });
   }
@@ -56,25 +57,33 @@ export default class App extends Component {
     this.setState({ day: clickedDay });
   }
 
+  setContext(e) {
+    console.log(e.target.id);
+    const clickedContext = e.target.id;
+    this.setState({ context: clickedContext });
+  }
+
   render() {
     let renderOrientationView;
 
     if (this.state.orientation === 'portrait') {
       renderOrientationView =
         (<Portrait
+          context={this.state.context}
+          data={this.state.data}
           days={config.days}
           day={this.state.day}
           setDay={this.setDay}
-          data={this.state.data}
         />);
     } else {
       renderOrientationView =
         (<Landscape
+          data={this.state.data}
+          context={this.state.context}
           days={config.days}
           day={this.state.day}
           stages={config.stages}
           setDay={this.setDay}
-          data={this.state.data}
         />);
     }
 

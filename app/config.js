@@ -3,6 +3,7 @@ const config = {
   // because import-statemnts don't support runtime evaluation of variables
   appRoot: document.getElementById('root'),
   stages: ['Hauptbühne', 'Zeltbühne', 'Waldbühne'],
+  tents: ['Bamboo', 'Block', 'Bacardi'],
   days: ['do', 'fr', 'sa', 'so']
 };
 
