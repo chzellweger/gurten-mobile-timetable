@@ -2,12 +2,9 @@ import React from 'react';
 import jsonQuery from 'json-query';
 
 import Day from './day';
-import DayChooser from './dayChooser';
 
 const propTypes = {
-  days: React.PropTypes.array.isRequired,
   day: React.PropTypes.string.isRequired,
-  setDay: React.PropTypes.func.isRequired,
   data: React.PropTypes.object.isRequired
 };
 
@@ -18,10 +15,6 @@ function Portrait(props) {
 
   return (
     <div className="portrait">
-      <DayChooser
-        setDay={props.setDay}
-        items={props.days}
-      />
       <Day
         day={props.day}
         data={selected.value}

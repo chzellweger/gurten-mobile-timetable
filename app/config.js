@@ -4,7 +4,8 @@ const config = {
   appRoot: document.getElementById('root'),
   stages: ['Hauptbühne', 'Zeltbühne', 'Waldbühne'],
   tents: ['Bamboo', 'Block', 'Bacardi'],
-  days: ['do', 'fr', 'sa', 'so']
+  days: ['do', 'fr', 'sa', 'so'],
+  contexts: ['stages', 'tents']
 };
 
 export default config;

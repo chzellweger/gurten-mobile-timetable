@@ -2,12 +2,12 @@ import React from 'react';
 import Button from './button';
 
 const propTypes = {
-  setDay: React.PropTypes.func.isRequired,
+  setContext: React.PropTypes.func.isRequired,
   items: React.PropTypes.array.isRequired
 };
 
-function DayChooser(props) {
-  let clicked = props.setDay;
+function ContextChooser(props) {
+  let clicked = props.setContext;
   let children = props.items.map(key => (
     <Button
       key={key}
@@ -17,9 +17,9 @@ function DayChooser(props) {
     />
   ));
 
-  return <div className="buttons days">{children}</div>;
+  return <div className="buttons context">{children}</div>;
 }
 
-DayChooser.propTypes = propTypes;
+ContextChooser.propTypes = propTypes;
 
-export default DayChooser;
+export default ContextChooser;

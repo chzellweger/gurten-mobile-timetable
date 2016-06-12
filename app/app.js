@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 
 import Landscape from './landscape';
 import Portrait from './portrait';
+import DayChooser from './dayChooser';
+import ContextChooser from './contextChooser';
 
 import { getDay } from './helpers';
 
@@ -61,19 +63,31 @@ export default class App extends Component {
     console.log(e.target.id);
     const clickedContext = e.target.id;
     if (clickedContext === 'stages') {
-      this.setState({ data: JSON.parse(DataStages) });
+      this.setState({
+        data: JSON.parse(DataStages),
+        context: 'stages'
+      });
     } else {
-      this.setState({ data: JSON.parse(DataTents) });
+      this.setState({
+        data: JSON.parse(DataTents),
+        context: 'tents'
+      });
     }
   }
 
   render() {
+    let appContext;
     let renderOrientationView;
+
+    if (this.state.context === 'stages') {
+      appContext = config.stages;
+    } else {
+      appContext = config.tents;
+    }
 
     if (this.state.orientation === 'portrait') {
       renderOrientationView =
         (<Portrait
-          context={this.state.context}
           data={this.state.data}
           days={config.days}
           day={this.state.day}
@@ -83,14 +97,19 @@ export default class App extends Component {
       renderOrientationView =
         (<Landscape
           data={this.state.data}
-          context={this.state.context}
           days={config.days}
           day={this.state.day}
-          stages={config.stages}
+          stages={appContext}
           setDay={this.setDay}
         />);
     }
 
-    return <div className="app">{renderOrientationView}</div>;
+    return (
+      <div className="app">
+        <ContextChooser setContext={this.setContext} items={config.contexts} />
+        <DayChooser setDay={this.setDay} items={config.days} />
+        <div className="content">{renderOrientationView}</div>
+      </div>
+      );
   }
 }

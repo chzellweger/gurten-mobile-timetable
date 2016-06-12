@@ -4,17 +4,17 @@ import { getLiteralDay } from './helpers';
 const propTypes = {
   className: React.PropTypes.string.isRequired,
   clicked: React.PropTypes.func.isRequired,
-  day: React.PropTypes.string.isRequired
+  name: React.PropTypes.string.isRequired
 };
 
 function Button(props) {
-  const literalDay = getLiteralDay(props.day);
+  const literalDay = getLiteralDay(props.name);
   let thisLiteralDay = literalDay.short;
 
   return (
     <button
-      id={props.day}
-      className={`${props.day} ${props.className}`}
+      id={props.name}
+      className={`${props.name} ${props.className}`}
       onClick={props.clicked}
     >
       {thisLiteralDay}
