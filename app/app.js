@@ -20,7 +20,6 @@ export default class App extends Component {
     };
 
     this.setDay = this.setDay.bind(this);
-    this.setOrientation = this.setOrientation.bind(this);
   }
 
   componentWillMount() {
@@ -44,16 +43,11 @@ export default class App extends Component {
     }
 
     // Add a media query change listener
-    const setter = this.setOrientation;
-
     mediaQueryList.addListener((mediaQuery) => {
       const match = mediaQuery.matches ? 'portrait' : 'landscape';
-      setter(match);
+      this.setState({ orientation: match });
+      // this.setOrientation(match);
     });
-  }
-
-  setOrientation(value) {
-    this.setState({ orientation: value });
   }
 
   setDay(e) {
