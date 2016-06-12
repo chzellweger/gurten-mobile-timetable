@@ -1,8 +1,9 @@
 
+// define your settings in config.js and import it
+import config from './config';
+
 import React from 'react';
 import { render } from 'react-dom';
 import App from './app';
 
-const appRoot = document.getElementById('root');
-
-render(<App />, appRoot);
+render(<App config={config} />, config.appRoot);

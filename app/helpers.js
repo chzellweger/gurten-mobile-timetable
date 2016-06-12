@@ -27,7 +27,7 @@ function getDay() {
     return 'fr';
   } else if (day === 6) {
     return 'sa';
-  } else if (day === 7) {
+  } else if (day === 0) {
     return 'so';
   } else {
     return 'do';

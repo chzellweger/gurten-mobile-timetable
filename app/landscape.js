@@ -7,6 +7,7 @@ import Stage from './stage';
 import { getLiteralDay } from './helpers';
 
 const propTypes = {
+  days: React.PropTypes.array.isRequired,
   day: React.PropTypes.string.isRequired,
   stages: React.PropTypes.array.isRequired,
   setDay: React.PropTypes.func.isRequired,
@@ -33,7 +34,7 @@ function Landscape(props) {
     <div className="landscape">
       <DayChooser
         setDay={props.setDay}
-        items={['do', 'fr', 'sa', 'so']}
+        items={props.days}
       />
       <div>
         <div className="stages-container">

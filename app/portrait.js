@@ -5,6 +5,7 @@ import Day from './day';
 import DayChooser from './dayChooser';
 
 const propTypes = {
+  days: React.PropTypes.array.isRequired,
   day: React.PropTypes.string.isRequired,
   setDay: React.PropTypes.func.isRequired,
   data: React.PropTypes.object.isRequired
@@ -19,7 +20,7 @@ function Portrait(props) {
     <div className="portrait">
       <DayChooser
         setDay={props.setDay}
-        items={['do', 'fr', 'sa', 'so']}
+        items={props.days}
       />
       <Day
         day={props.day}

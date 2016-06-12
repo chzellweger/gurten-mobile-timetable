@@ -9,8 +9,8 @@ index
     <Landscape day={''} stages={[]} data={{}} setDay={()} />
       <DayChooser setDay={()} items={[]} />
         <Button day={''} classname='' clicked={()} />
-        ->Stage ->stage'' ->data{}
-          ->Show ->showData[] ->insideStage(Bool)
+      <Stage stage={''} data={{}} />
+          <Show showData={[]} insideStage={Bool} />
   
     ->Portrait ->day'' ->stages[]  ->data{} ->setDay()
       ->DayChooser ->setDay() ->items[]

@@ -1,3 +1,5 @@
+import config from './config';
+
 import React, { Component } from 'react';
 
 import Landscape from './landscape';
@@ -66,6 +68,7 @@ export default class App extends Component {
     if (this.state.orientation === 'portrait') {
       renderOrientationView =
         (<Portrait
+          days={config.days}
           day={this.state.day}
           setDay={this.setDay}
           data={this.state.data}
@@ -73,8 +76,9 @@ export default class App extends Component {
     } else {
       renderOrientationView =
         (<Landscape
+          days={config.days}
           day={this.state.day}
-          stages={['Hauptbühne', 'Zeltbühne', 'Waldbühne']}
+          stages={config.stages}
           setDay={this.setDay}
           data={this.state.data}
         />);
