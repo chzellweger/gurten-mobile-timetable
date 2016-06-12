@@ -12,6 +12,9 @@ function Modal(props) {
         <div className="modal-title" onClick={props.handleModal}>
           {props.content.name}
         </div>
+        <div className="modal-infos">
+        {`${props.content.stage}, ${props.content.time} Uhr`}
+        </div>
         <div className="modal-text" onClick={props.handleModal}>
           {props.content.description}
         </div>
