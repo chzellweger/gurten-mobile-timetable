@@ -13,6 +13,7 @@ body {
 
 h1 {
   color: #ffffff;
+  font-size: 3em;
 }
 
 .buttons {
@@ -32,9 +33,15 @@ button {
   width: 100%;
 }
 
+.day-name-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
 .day-name {
   padding: 10px 0 10px 6px;
-  font-size: 1.25em;
+  font-size: 3em;
 }
 
 .stages {
@@ -67,41 +74,44 @@ button {
   border-style: dotted;
   border-width: 1px;
   padding-left: 5px;
+  box-shadow: 3px 3px 1.5px #888888;
 }
 
 .do, .stages {
-  background-color: #547369;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .fr, .tents {
-  background-color: #fc9833;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .sa {
-  background-color: #6e5d4a;
-  color: white;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .so {
-  background-color: white;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .Hauptbühne, .Bamboo {
-  background-color: #f90784;
-  color: black;
+  background-color: #ffffff; /*#f90784;*/
+  color: #000000;
   order: 1;
 }
 
 .Zeltbühne, .Block {
-  background-color: #3271cb;
+  background-color: #ffffff;
   color: black;
   order: 2;
 }
 
 .Waldbühne, .Bacardi {
-  background-color: #4ec2dc;
-  color: #ffffff; 
+  background-color: #ffffff;
+  color: #000000; 
   order: 3;
 }
 
@@ -120,7 +130,7 @@ button {
   background-color: gray; /*rgba(0,0,0,0.4); Black w/ opacity */
   padding: 10px 10px 2em 10px;
   overflow: scroll;
-  }
+}
 
 .modal-content {
   max-width: 80%;
@@ -138,4 +148,23 @@ button {
   overflow-x: hidden;
   overflow-y: auto;
 
+}
+
+/*CSSTransitionGroup*/
+.slidePortrait-appear {
+  left: 800px;
+  transition: all 0.5s ease-in-out;
+  /*transition: translate(400px,0) 2s;*/
+}
+
+.slidePortrait-appear.slidePortrait-appear-active {
+  left: 0;
+}
+
+.slidePortrait-leave {
+  opacity: 0.01;
+  transition: opacity 1s ease-in;
+}
+.slidePortrait-leave.slidePortrait-leave-active {
+  opacity: 1;
 }
