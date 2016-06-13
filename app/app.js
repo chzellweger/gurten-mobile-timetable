@@ -1,5 +1,3 @@
-import config from './config';
-
 import React, { Component } from 'react';
 
 import Landscape from './landscape';
@@ -11,6 +9,10 @@ import { getDay } from './helpers';
 
 import DataStages from './data-stages';
 import DataTents from './data-tents';
+
+const propTypes = {
+  config: React.PropTypes.object.isRequired
+};
 
 export default class App extends Component {
   constructor(props) {
@@ -80,16 +82,16 @@ export default class App extends Component {
     let renderOrientationView;
 
     if (this.state.context === 'stages') {
-      appContext = config.stages;
+      appContext = this.props.config.stages;
     } else {
-      appContext = config.tents;
+      appContext = this.props.config.tents;
     }
 
     if (this.state.orientation === 'portrait') {
       renderOrientationView =
         (<Portrait
           data={this.state.data}
-          days={config.days}
+          days={this.props.config.days}
           day={this.state.day}
           setDay={this.setDay}
         />);
@@ -97,7 +99,7 @@ export default class App extends Component {
       renderOrientationView =
         (<Landscape
           data={this.state.data}
-          days={config.days}
+          days={this.props.config.days}
           day={this.state.day}
           stages={appContext}
           setDay={this.setDay}
@@ -106,10 +108,13 @@ export default class App extends Component {
 
     return (
       <div className="app">
-        <ContextChooser setContext={this.setContext} items={config.contexts} />
-        <DayChooser setDay={this.setDay} items={config.days} />
+        <DayChooser setDay={this.setDay} items={this.props.config.days} />
+        <ContextChooser setContext={this.setContext} items={this.props.config.contexts} />
         <div className="content">{renderOrientationView}</div>
       </div>
       );
   }
 }
+
+App.propTypes = propTypes;
+

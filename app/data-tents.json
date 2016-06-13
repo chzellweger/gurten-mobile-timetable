@@ -2,345 +2,352 @@
     "shows":[
         {
             "day":"do",
-            "name":"The Two Romans",
-            "time":"16.15",
-            "stage":"Bamboo",
+            "name":"DJ Chris",
+            "time":"14.00",
+            "stage":"Bacardi",
             "description":"Sie kennen sich mit Bandcontests aus. Im letzten Jahr gewannen The Two Romans aus Thun das Emergenza-Finale, in diesem Jahr begeisterten sie das Publikum beim Waldbühnen-Contest und erspielten sich einen der hochbegehrten Slots am Gurtenfestival. Diese Erfolge haben zwei Gründe: Einerseits hat die Folk-Rock-Pop-Band bereits eine sehr grosse Fanbase im Rücken. Andererseits sind ihre Songs von enormer Qualität. Die Melodien bleiben haften und an ihren Live-Auftritten sprühen The Two Romans nur so vor Energie und ansteckend guter Laune."
         },
         {
             "day":"do",
-            "name":"Michael Kiwanuka",
-            "time":"16.16",
+            "name":"Audiotheque.",
+            "time":"14.00",
             "stage":"Block",
             "description":"Bereits in jungen Jahren entdeckte Michael Kiwanuka die Soulmusik der 1960er für sich. Und seither ist er aus dieser Welt nie mehr so richtig aufgetaucht. Der Sänger aus London, mit Wurzeln in Uganda, hat sich hörbar von Grössen wie den Temptations, Van Morrison oder Otis Redding beeinflussen lassen. Man muss lange suchen, um in der heutigen Zeit einen Künstler zu finden, der so viel Gefühl und Herzblut in seine Songs stecken kann, wie es der 29-jährige auf seinem Debüt «Home Again» geschafft hat – und wie er es Abend für Abend an seinen Live-Shows eindrücklich wiederholt."
         },
         {
             "day":"do",
-            "name":"Frank Turner",
-            "time":"17.30",
-            "stage":"Bacardi",
+            "name":"Frost & Fog",
+            "time":"15.00",
+            "stage":"Bamboo",
             "description":"Er schaffte den Sprung vom Punk- zum Stadion-Rocker: Frank Turner darf ohne zu übertreiben zu den am härtesten arbeitenden Musikern im Show-Geschäft gezählt werden. Der in England aufgewachsene Musiker hat in seiner Karriere gegen 2000 Live-Konzerte gespielt. Die Lokalitäten sind über die Jahre um ein x-Faches gewachsen und die Album-Verkäufe in schwindelerregende Höhen gestiegen – zuletzt mit dem umjubelten «Positive Songs For Negative People». Geblieben sind die punkige Wut, die mitreissenden Gitarren-Rocksongs und das unbändige Feuer, das Frank Turner an seinen energiegeladenen Shows vom ersten Ton an aufs Publikum überträgt."
         },
         {
             "day":"do",
-            "name":"Klaus Johann Grobe",
-            "time":"19.00",
-            "stage":"Waldbühne",
+            "name":"Le President & Celli",
+            "time":"15.30",
+            "stage":"Bacardi",
             "description":"Warum sind Klaus Johann Grobe im Ausland populärer als bei uns? Diese Frage stellte Radio SRF vor einem Jahr. Und diese Frage wird in diesem Jahr niemand mehr stellen. Das Duo aus Zürich und Basel ist zwar immer noch auf der ganzen Welt unterwegs, spielt aber auch in der Schweiz vor immer grösserem Publikum. Warum das so ist? Weil man sich ihren mit Synthies unterlegten, von funkigen Bässen angetriebenen Electro-Pop-Songs nicht entziehen kann. Ihr neues Album «Spagat der Liebe» lädt nicht nur zum Tanzen ein, es setzt mit den deutschen Texten auch auf eine ordentliche Portion Coolness."
         },
         {
             "day":"do",
-            "name":"Nathaniel Rateliff",
-            "time":"19.00",
-            "stage":"Zeltbühne",
+            "name":"Basement Saints",
+            "time":"17.30",
+            "stage":"Bamboo",
             "description":"Wer der Meinung ist, dass Soul, Gospel und Folk einen leicht verstaubten Geschmack haben, der hat definitiv noch nie von Nathaniel Rateliff gehört. Zusammen mit seinen Night Sweats hat der Sänger aus Missouri besagte Musikstile umgekrempelt und in die Gegenwart geholt. Und das tun sie so erfolgreich und augenzwinkernd, dass Radio SRF für die mitreissende Übersingle «S.O.B.» eine Warnung aussprechen musste: «Achtung, dieser Song könnte euch umhauen.» Wir gehen noch einen Schritt weiter: Auch der Gurten-Auftritt wird eine Wucht! Nathaniel Rateliff ist «the next big thing»."
         },
         {
             "day":"do",
-            "name":"The Lumineers",
-            "time":"20.15",
-            "stage":"Hauptbühne",
+            "name":"Mashup Monsters",
+            "time":"19.00",
+            "stage":"Bacardi",
             "description":"The Lumineers sind mit ihrer Über-Single «Ho Hey» einmal rund um die ganze Welt getourt und haben auf ihrem musikalischen Siegeszug die grössten Hallen ausverkauft. Die Folk-Rock-Band mit Wurzeln in Denver hat sich dabei als hervorragende Live-Band entpuppt und darf sogar den US-Präsidenten zu ihren Fans zählen. Barack Obama nahm die Lumineers-Single «Stubborn Love» in eine seiner Spotify-Listen auf. Und wer Hunger Games gesehen hat, wird sich an den Moment erinnern, in dem Jennifer Lawrence das magische «The Hanging Tree» anstimmt. Dreimal dürft ihr raten, wer für den Song mit der US-Schauspielerin zusammengearbeitet hat..."
         },
         {
             "day":"do",
-            "name":"Rea Garvey",
-            "time":"21.30",
-            "stage":"Zeltbühne",
+            "name":"Princess Pi",
+            "time":"19.00",
+            "stage":"Block",
             "description":"Rea Garvey ist ein nimmermüder Tausendsassa. Zusammen mit seinem «Supergirl» und seiner früheren Band Reamonn ging er um die Welt. Als Juror von The Voice of Germany ist er einem breiten Publikum bekannt. Und als Solokünstler lebt er seine musikalischen Vorlieben aus. Sein jüngstes Werk «Prisma» räumt der kraftvollen Stimme des irischen Sängers den Platz ein, die sie benötigt, um sich zu entfalten. Auf seinem bereits dritten Soloalbum wechseln sich Stadionrock und Pop-Hymnen gekonnt ab. Zehn Jahre, nachdem er mit seiner Band Reamonn letztmals auf dem Gurten aufgetreten ist, kehrt Rea nun als gefeierter Solokünstler zurück."
         },
         {
             "day":"do",
-            "name":"Yokko",
-            "time":"21.30",
-            "stage":"Waldbühne",
+            "name":"Dandy (der Echte)",
+            "time":"20.15",
+            "stage":"Bamboo",
             "description":"Sie sind der beste Beweis dafür, dass sich Qualität immer durchsetzt: Yokko aus Bern gehören schon bald zum Inventar am Gurtenfestival. Angefangen hat alles 2012 in der feinen Bamboo Bar. Von dort aus eroberten sie sich zwei Jahres später einen Slot am frühen Nachmittag auf der Zeltbühne. Und nun spielen sie abends zur besten Zeit auf der Waldbühne – direkt vor Muse. Ihr neues Werk heisst «To the Fighters. To the Boxers.» Darauf setzen Yokko erneut auf grosse Gefühle, massive Soundwände, düstere Stimmung und euphorische Momente – und packen das alles in eingängige Indie-Rocksongs."
         },
         {
             "day":"do",
-            "name":"Muse",
-            "time":"23.00",
-            "stage":"Hauptbühne",
+            "name":"DJ Invincible",
+            "time":"21.30",
+            "stage":"Bacardi",
             "description":"Bühne frei für das Festival-Highlight des Jahres: Muse sind mit deutlichem Abstand die spektakulärste und grösste Rockband der Welt – und das schon seit Jahren. Die Briten werden uns als Headliner am Donnerstagabend mit sensationellen Bühnenbildern, wuchtigen Bässen, vorwärts peitschenden Drums, lauten Gitarren-Exzessen und der markanten Stimme von Sänger Matt Bellamy für 90 Minuten in ihre einzigartige Welt der Superlative entführen. Auf dem Programm stehen nicht nur Songs ab dem neuen Werk «Drones», sondern auch viele Klassiker aus früheren Jahren."
         },
         {
             "day":"do",
-            "name":"The Chikitas",
-            "time":"00.50",
-            "stage":"Waldbühne",
+            "name":"Jon Donson",
+            "time":"21.30",
+            "stage":"Block",
             "description":"Ihr lautes, ungestümes und rotziges Debütalbum «Distoris Clitortion» ist noch nicht richtig verklungen – und schon stehen The Chikitas mit einem Nachfolger vor der Tür. «Wrong Motel» heisst das zweite Werk, auf dem sich die beiden energiegeladenen Genferinnen erneut von ihrer wildesten Seite präsentieren. Punkige Attitüde trifft auf guten, alten Rock’n’Roll und rohen Grunge. Wir empfehlen als Vorbereitung auf The Chikitas: Dehnt schon mal eure Nackenmuskulatur und ölt die Stimmbänder. Wir haben euch gewarnt."
         },
         {
             "day":"do",
-            "name":"Boys Noize",
-            "time":"00.50",
-            "stage":"Zeltbühne",
+            "name":"Soulsource/Captital Breaks",
+            "time":"22.45",
+            "stage":"Bamboo",
             "description":"Ihm eilt der Ruf voraus, einer der herausragendsten DJs der Welt zu sein. Er hat mit seinen Electro-Sounds die grössten Hallen der Welt beglückt. Und er ist ein hervorragender Showman: Der deutsche DJ Boys Noize machte erstmals 2004 musikalisch auf sich aufmerksam. Seither hat er eine nur schwer zu überblickende Menge an Alben, Singles und Remixes veröffentlicht und dabei nicht nur eigene Musik released, sondern auch Songs von Weltstars wie Depeche Mode, Daft Punk und Rammstein ein neues Gesicht gegeben. Am Donnerstagabend wird er als letzter Künstler auf der Zeltbühne der Partynacht seinen Stempel aufdrücken."
         },
         {
-            "day":"fr",
-            "name":"Les Touristes",
-            "time":"14.00",
-            "stage":"Waldbühne",
+            "day":"do",
+            "name":"Nik Thomi",
+            "time":"00.50",
+            "stage":"Bacardi",
             "description":"Würde ihre Musik in eine Schublade passen, dann müsste diese mit Pop-Jazz-Abgehmukke angeschrieben sein. Les Touristes haben sich mit jazzigen Pop-Songs, augenzwinkernden Songtexten in Mundart und einer überdimensionalen Portion Spielfreude vom Waldbühnen-Contest aus direkt ans Gurtenfestival gespielt. Die Waldbühne wird wohl eine der grösseren Bühnen sein, auf denen die aufstrebende Band in ihrer noch jungen Karriere gestanden ist, aber sicher nicht die speziellste. Oder denkt ihr, dass ein Auftritt in einem fahrenden Zug alltäglich ist?"
         },
         {
-            "day":"fr",
-            "name":"Joris",
-            "time":"14.00",
-            "stage":"Zeltbühne",
+            "day":"do",
+            "name":"San Marco",
+            "time":"00.50",
+            "stage":"Block",
             "description":"Sein Debütalbum heisst «Hoffnungslos hoffnungsvoll». Und dieser Titel beschreibt treffend, wie die Songs des Newcomers Joris klingen. Die Stimme des Multi-Instrumentalisten, der in der Nähe von Bielefeld aufgewachsen ist, pendelt mühelos zwischen laut-kratzig und zerbrechlich-sanft hin und her. Die Stimmung in seinen Pop-Songs ist melancholisch. Und die deutschen Texte sind von einer entfesselnden Ehrlichkeit. Kein Wunder, hat es sein Debütalbum bei diesen Voraussetzungen aufs Podest in den deutschen Album-Charts geschafft."
         },
         {
-            "day":"fr",
-            "name":"Johnhossi",
-            "time":"15.30",
-            "stage":"Hauptbühne",
+            "day":"do",
+            "name":"DJ Bowser",
+            "time":"02.05",
+            "stage":"Bamboo",
             "description":"Kurz nachdem klar war, dass die Zwei-Mann-Band Johnossi 2016 ein neues Album veröffentlichen würde, rissen sich die grössten Festivals in ganz Europa um ihre Dienste. John Engelbert und Oskar «Ossi» Bonde sind Vollblut-Musiker, die sich auf der Bühne bis weit übers Limit hinaus auspowern. Die Schweden haben auf ihren bisher veröffentlichten Alben die perfekte Schnittmenge aus Rocksongs und grossen Melodien gefunden und damit massenhaft ausverkaufte Shows aneinandergereiht. Wir freuen uns auf Album Nummer fünf und ein stürmische, begeisternde Live-Show."
         },
         {
-            "day":"fr",
-            "name":"Faber",
-            "time":"17.15",
-            "stage":"Waldbühne",
+            "day":"do",
+            "name":"Bad Taste Party",
+            "time":"03.00",
+            "stage":"Bacardi",
             "description":"Er hat ihr ein Lied vorgesungen – und sie war gleich hin und weg. Er, das ist der junge Singer-Songwriter Faber aus Zürich. Sie, das ist die erfolgreichste Schweizer Sängerin Sophie Hunger. Die Musikerin nahm den enorm talentierten, aber damals noch weitgehend unbekannten Künstler mit auf Tournee um seiner Stimme und seinen wortstarken, leidenschaftlichen Indie-Folk-Songs mit leichtem Punk-Anstrich eine grosse Bühne zu bieten. Es war ein guter Schachzug, denn heute ist klar: Faber ist die musikalische Zukunft der Schweiz."
         },
         {
-            "day":"fr",
-            "name":"Royal Republic",
-            "time":"17.15",
-            "stage":"Zeltbühne",
+            "day":"do",
+            "name":"Madmotormiquel",
+            "time":"03.00",
+            "stage":"Block",
             "description":"An den Live-Shows von Royal Republic gelangen selbst durchtrainierte Leistungssportler an ihre körperlichen Grenzen. Die Garage-Rockband aus Malmö fackelt auf der Bühne mit viel Attitüde temperamentvolle und kompromisslose Rocksongs ab. Damit haben sich die Schweden  innert kürzester Zeit von schummrigen Bars auf die grössten Festivalbühnen in ganz Europa gespielt und eine riesige Anhängerschaft um sich geschart. Auf dem Gurten stellen Royal Republic ihr brandneues Album live vor!"
         },
         {
             "day":"fr",
-            "name":"Gentleman",
-            "time":"19.00",
-            "stage":"Hauptbühne",
+            "name":"DJ Marco Scherrer",
+            "time":"14.00",
+            "stage":"Bacardi",
             "description":"Hier treffen zwei Schwergewichte der Reggae-Szene aufeinander. Ky-Mani Marley einerseits, sein Nachname verrät es, wurde die Reggae-Musik in die Wiege gelegt. Gentleman andererseits stammt aus Deutschland und hat von dort aus bis nach Jamaika Wellen geschlagen. 2014 konnte Gentleman im Rahmen der MTV Unplugged Reihe ein Album aufnehmen und bei zwei Songs auf die Unterstützung von Ky-Mani Marley zählen. Rasch war klar, dass hier zwei Ausnahmemusiker aufeinander trafen, die sich gegenseitig zu musikalischen Höchstleistungen antrieben. Logische Folge: ein gemeinsames Album und eine Tour."
         },
         {
             "day":"fr",
-            "name":"Pablopolar",
-            "time":"20.30",
-            "stage":"Waldbühne",
+            "name":"Sualo",
+            "time":"14.00",
+            "stage":"Block",
             "description":"«Colorize» ist ihr bisher bestes, direktestes und frischestes Album. Und das will was heissen, denn schon die beiden Vorgänger von Pablopolar haben für mächtig Furore gesorgt. Die Berner setzen für ihr neustes Werk konsequent auf poppige und eingängige Melodien, die sich auch auf den ganz grossen Bühnen dieser Welt wohl fühlen würden. «Colorize» wird getragen von der starken Stimme von Sänger Manuel Kollbrunner, von aufs Wesentliche reduzierten Drumsounds, von unverkennbaren Gitarrenklängen, sphärischen Synthies und groovenden Bässen."
         },
         {
             "day":"fr",
-            "name":"Annemaykantereit",
-            "time":"20.30",
-            "stage":"Zeltbühne",
+            "name":"Pedestrians",
+            "time":"15.15",
+            "stage":"Bamboo",
             "description":"Seine Stimme klingt wie die eines bärtigen Seemannes, der seit Jahrzehnten jeden Morgen eine Packung rostiger Reissnägel schluckt und sie danach mit einer Flasche Whiskey runterspült. Dabei ist Henning May gerade mal etwas über 20 Jahre jung. Seine Band AnnenMayKantereit geht momentan in Deutschland durch die Decke. Das verdanken sie ihrem starken neuen Album «Alles Nix Konkretes», der Mischung aus Blues und schwermütiger Rockmusik und natürlich der eindringlichen Stimme von Sänger May, die sich bis in die hintersten Ecken des Gurtenfestivals ausbreiten wird."
         },
         {
             "day":"fr",
-            "name":"Passenger",
-            "time":"21.45",
-            "stage":"Hauptbühne",
+            "name":"Raphael Delan",
+            "time":"16.15",
+            "stage":"Bamboo",
             "description":"Weit über 800 Millionen Views auf YouTube sind ein deutliches Indiz dafür, dass Passenger mit «Let Her Go» einen Song für die Ewigkeit geschrieben hat. Und man darf sich bereits auf den Gurten-Moment freuen, wenn der sympathische Engländer mit der prägnanten Stimme zu seinem Welt-Hit ansetzt und ihn ein Meer aus Tausenden von Stimmen ab dem ersten Ton lautstark unterstützt. Dabei darf man allerdings nicht vergessen, dass auch die restlichen poppigen Folk-Perlen von Passenger für Gänsehaut sorgen."
         },
         {
             "day":"fr",
-            "name":"Manillio",
-            "time":"23.15",
-            "stage":"Waldbühne",
+            "name":"Ellen V",
+            "time":"16.45",
+            "stage":"Bacardi",
             "description":"Seit Jahren wird Manillio als Gegenwart und Zukunft des Schweizer Raps gefeiert. Daran ändert auch sein brandneues Werk «Kryptonit» nichts. Darauf zeichnet der Solothurner Rapper Songs über Kleinstadtträume und Superhelden, Geschichten aus Clubnächten und Szenen direkt aus dem Alltag. Manillio ist mit seinem unverkennbaren Wortfluss, den fetten Beats  und tiefgründigen Texten immer noch der Zeit voraus und gleichzeitig topaktuell. Kein Wunder haben Büne Huber, Baze, Jeans For Jesus und weitere prominente Acts auf dem neuen Manillio-Werk mitgewirkt."
         },
         {
             "day":"fr",
-            "name":"Wanda",
-            "time":"23.15",
-            "stage":"Zeltbühne",
+            "name":"Patrique/Ivan R",
+            "time":"16.45",
+            "stage":"Block",
             "description":"Mit der ungestümen Single «Bologna» und dem Debütalbum «Amore» haben Wanda Österreichs Musikszene mit einem Schlag ins Rampenlicht gerückt. Seither füllen sie mit ihrem Amore-Pop, den rockigen Hymnen und charmantem Wiener-Dialekt die Hallen in ganz Europa und sorgen dank schweisstreibenden Live-Shows, an denen die Band bis übers Limit hinaus geht, für Begeisterungsstürme. Ihr zweites Album «Bussi» steht dem Debüt in nichts nach und hat Wanda endgültig als Österreichs derzeit heissesten Rock-Export etabliert."
         },
         {
             "day":"fr",
-            "name":"Kygo",
-            "time":"00.30",
-            "stage":"Hauptbühne",
+            "name":"Yes I'm very tired now",
+            "time":"18.30",
+            "stage":"Bamboo",
             "description":"Kygo hat in den letzten Monaten massenhaft Rekorde gebrochen: Innerhalb von einem Jahr wurden seine Songs auf Spotify über eine Milliarde Mal (!) gestreamt. Das hat vor ihm kein anderer Künstler erreicht. Und auch die Plays auf YouTube sind innert kürzester Zeit in schwindelerregende Höhen gestiegen. Auf dem Gurten spielt der Senkrechtstarter des Tropical House eine seiner ersten Headliner-Shows an einem Festival. So eindrücklich die Erfolge im letzten Jahr waren – sie waren erst der Anfang. 2016 wird das Jahr des 24-jährigen DJs."
         },
         {
             "day":"fr",
-            "name":"Pullup Orchestra",
-            "time":"02.00",
-            "stage":"Waldbühne",
+            "name":"Raphael Delan",
+            "time":"19.45",
+            "stage":"Bamboo",
             "description":"Das muss man sich auf der Zunge zergehen lassen: Das Pullup Orchestra ist eine Swiss-Hip-Hop-Jazz-Brassband. Und genauso, wie sich der Name liest, fühlt sich auch die Musik an. Rapper Samwhaa! battelt mit Trompeten, Pousaune und Saxophon um die Wette, Sängerin Mellow Dee misst sich mit Snare, Pauke und Percussion. Und das gute alte Sousaphon sorgt dafür, dass die Songs vom Pullup Orchestra ab dem ersten Ton direkt in die Beine fahren. Auf ihrem Album «The Brap LP» beweist die zehnköpfige Formation, dass sie zum innovativsten gehört, was die Schweizer Musik derzeit zu bieten hat."
         },
         {
             "day":"fr",
-            "name":"Frittenbude",
-            "time":"02.00",
-            "stage":"Zeltbühne",
+            "name":"DJ MC Flury",
+            "time":"20.30",
+            "stage":"Bacardi",
             "description":"Elektrisierende Beats, messerscharfe Rhymes, knallharte Lyrics und durchzechte Nächte. All diese Zutaten hat die deutsche Electro-Punk-Rapband Frittenbude in ihr jüngstes Album «Küken des Orion» gepackt und einmal ordentlich durchgeschüttelt. Live geht das Ganze noch eine Spur wilder zu und her. Um es in ihren eigenen Worten auszudrücken: «Frittenbude live ist wie eine Kneipenschlägerei auf Acid mit Kuscheltieren.» Nicht, dass wir damit Erfahrung hätten. Aber der Vergleich erscheint uns ziemlich angebracht in Anbetracht des Spektakels, das die Band auf der Bühne abfeiert."
         },
         {
-            "day":"sa",
-            "name":"Major B.",
-            "time":"14.00",
-            "stage":"Waldbühne",
+            "day":"fr",
+            "name":"Nouwah",
+            "time":"20.30",
+            "stage":"Block",
             "description":"Major B. spielen so, wie das Leben spielen sollte: Bunt, frech, manchmal stilistisch und politisch völlig unkorrekt und immer überraschend. Diese Überraschungen offenbaren sich nicht zuletzt in der stilistischen Ausrichtung der Band aus Interlaken, die auf Funk, Soul, Rock, Jazz, Pop und Latino setzt. Und wie ein roter Faden ziehen sich die gut gelaunten Reggae-Beats durch ihre Songs. Kein Wunder, konnten Major B. beim Waldbühnen Contest das Publikum dank dieser breiten Ausrichtung für ihre Musik begeistern."
         },
         {
-            "day":"sa",
-            "name":"Movits",
-            "time":"14.00",
-            "stage":"Zeltbühne",
+            "day":"fr",
+            "name":"Chukks",
+            "time":"21.45",
+            "stage":"Bamboo",
             "description":"Wir verzichten aus Platzgründen darauf, den Titel ihres aktuellen Albums auszuschreiben und konzentrieren uns statt dessen auf den Inhalt. Denn der hat es in sich. Mit ihrem vierten Werk hat die schwedische Band Movits! ihren Stil perfektioniert. Ihr Mix aus Swing und Hip-Hop ist hochgradig energiegeladen und fährt kompromisslos in die Beine. Die schwedischen Texte passen dabei wie die Faust aufs Auge zu den massiven Bässen. Kleiner Tipp: Wer gepflegt das Tanzbein schwingen will, darf diesen Auftritt unter keinen Umständen verpassen!"
         },
         {
-            "day":"sa",
-            "name":"77 Bombay Street",
-            "time":"15.30",
-            "stage":"Hauptbühne",
+            "day":"fr",
+            "name":"King Size Sound",
+            "time":"23.15",
+            "stage":"Bacardi",
             "description":"Als 77 Bombay Street vor fünf Jahren erstmals auf dem Gurten auftraten, da ging es erst so richtig los für die vier Brüder. Es folgten ausverkaufte Shows, zahlreiche Auszeichnungen, Zehntausende von verkauften Alben – und ein Ende dieser Entwicklung ist noch lange nicht in Sicht. Mit «Seven Mountains» haben Matt, Joe, Esra und Simri-Ramon im letzten Jahr erneut ein Album prall gefüllt mit Folk-Rock-Songs von internationalem Format veröffentlicht und es damit berechtigt auf den ersten Platz in den Schweizer Charts geschafft."
         },
         {
-            "day":"sa",
-            "name":"Anna Känzig",
-            "time":"17.15",
-            "stage":"Waldbühne",
+            "day":"fr",
+            "name":"James McHale",
+            "time":"23.15",
+            "stage":"Block",
             "description":"Das hat man so nicht erwartet. Anna Känzig hat sich in der Vergangenheit als unglaublich talentierte und begnadete Folk-Sängerin in der Schweiz einen Namen gemacht. Mit ihrem neuen Werk «Sound And Fury» lässt sie die folkige Vergangenheit allerdings weit hinter sich und setzt auf melodiöse, elektronische Popsongs von internationalem Format. Dieses neue Kleid steht der Zürcherin formidabel und passt ab dem ersten Ton wie angegossen. Die Songs auf «Sound And Fury» zählen zum Besten, was ihr in diesem Jahr aus der Schweiz zu hören bekommt."
         },
         {
-            "day":"sa",
-            "name":"Boy",
-            "time":"17.15",
-            "stage":"Zeltbühne",
+            "day":"fr",
+            "name":"Boulevard95",
+            "time":"00.30",
+            "stage":"Bamboo",
             "description":"Vier Jahre sind zwischen dem ersten und zweiten Album vergangen. Vier Jahre, in denen die Zwei-Frau-Band Boy unzählige ausverkaufte Shows gespielt, massenhaft Preise abgeräumt und Tausende von Fans mit traumhaft schönen Pop-Songs verzaubert hat. Als ob sie nie weg gewesen wären, knüpften die Schweizerin Valeska Steiner und ihre deutsche Kollegin Sonja Glass mit ihrem zweiten Album «We Were Here» genau dort an, wo der Vorgänger aufgehört hatte: mit melancholisch schillernden, wunderschönen Pop-Songs sorgen Boy auch 2016 wieder für ausverkaufte Konzertlokale und strahlende Gesichter im Publikum."
         },
         {
-            "day":"sa",
-            "name":"Bastille",
-            "time":"19.00",
-            "stage":"Hauptbühne",
+            "day":"fr",
+            "name":"Tom Larson",
+            "time":"02.00",
+            "stage":"Bacardi",
             "description":"Das Debütalbum der Band um Frontmann und Mastermind Dan Smith erschien vor drei Jahren und rüttelte damals die Musikwelt mit grossformatigem Bombast-Pop durch – auch dank ihren Live-Performances. Unvergessen bleibt der Auftritt vor zwei Jahren am Gurtenfestival. Während andere Bands in drei Jahren aufsteigen und wieder von der Bildfläche verschwinden, blasen Bastille mit ihrem bevorstehenden zweiten Werk erst recht zum Angriff. Und wir dürfen uns auf ihre Rückkehr ans Gurtenfestival freuen."
         },
         {
-            "day":"sa",
-            "name":"Hecht",
-            "time":"20.30",
-            "stage":"Waldbühne",
+            "day":"fr",
+            "name":"Mihai Popviciu",
+            "time":"02.00",
+            "stage":"Block",
             "description":"2013 fischten sie sich an den Swiss Music Awards die Auszeichnung als Best Talent National. Auf diesen Lorbeeren hat sich die Band Hecht danach allerdings nicht ausgeruht. Ihr jüngstes Album «Adam + Eva» ist prall gefüllt mit tanzbarem Indie-Rock. Paradebeispiel dafür ist ihre Hitsingle «Charlotta». Und von ihren Views auf YouTube können andere Mundart-Bands nur träumen. Ein Zeichen dafür, dass Hecht mit ihren stimmungsvollen Songs den Nerv der Zeit getroffen haben."
         },
         {
-            "day":"sa",
-            "name":"Bastian Baker",
-            "time":"20.30",
-            "stage":"Zeltbühne",
+            "day":"fr",
+            "name":"Dr. Mo",
+            "time":"03.15",
+            "stage":"Bamboo",
             "description":"Nur wenig hat gefehlt, und das Multitalent würde sich heute täglich die Schlittschuhe schnüren anstatt eine Gitarre umzuschnallen. Doch der sympathische Sänger aus Lausanne hat sich zum Glück für die Musik entschieden und seither alles, was er angefasst hat, zu Platin gemacht. «Facing Canyons» heisst sein drittes Soloalbum, das im November des letzten Jahres erschienen ist und die Fanherzen reihenweise zum Schmelzen gebracht hat. Seine sanften, unaufgeregten Pop-Songs haben erneut den Sprung bis weit über die Schweizer Grenzen hinaus geschafft."
         },
         {
             "day":"sa",
-            "name":"Travis",
-            "time":"21.45",
-            "stage":"Hauptbühne",
+            "name":"Mike Baader",
+            "time":"14.00",
+            "stage":"Bacardi",
             "description":"Erinnert ihr euch noch an den letzten Auftritt von Travis am Gurtenfestival? Als die Band zu ihrem Hit «Why Does It Always Rain On Me» anstimmte und das Publikum bis in die hinterste Reihe mitsprang? Vom grössten Massenpogo in der Geschichte des Gurtenfestivals war damals die Rede. Wetten, dass sich dieser magische Gurten-Moment in diesem Jahr wiederholt? Sieben Jahre nach ihrem ersten Auftritt auf dem Berner Hausberg kehren die sympathischsten aller Schotten mit dem brandneuen Album «Everything At Once», unzähligen altbekannten Hits und ihrer legendär-charmanten Art endlich wieder zurück!"
         },
         {
             "day":"sa",
-            "name":"Baschi",
-            "time":"23.15",
-            "stage":"Waldbühne",
+            "name":"Sassy J",
+            "time":"14.00",
+            "stage":"Block",
             "description":"Es gibt nicht viele Teilnehmer von Casting-Shows, die sich so lange und so erfolgreich im Business halten können wie er: «Zwüsche dir und mir» ist das siebte Album von Baschi – das es wiederum auf den Spitzenplatz in den Schweizer Charts geschafft hat und mit druckvollen Mundartrocksongs und gefühlsvollen Balladen besticht. Gänsehaut ist vorprogrammiert, wenn der Basler am Samstagabend auf der Waldbühne seinen grössten Schweizer Hit «Bring en hei» anstimmt und Tausende von Besuchern lauthals mitsingen."
         },
         {
             "day":"sa",
-            "name":"Antilopen Gang",
-            "time":"23.15",
-            "stage":"Zeltbühne",
+            "name":"Me + Marie",
+            "time":"15.15",
+            "stage":"Bamboo",
             "description":"Nach unzähligen Jahren im Untergrund sind sie endgültig im hellen Rampenlicht angekommen. Die Antilopen Gang mit Wurzeln in Düsseldorf und Aachen hat in der Vergangenheit ihre Rap-Songs in Eigenregie veröffentlicht, bis sie Opfer ihres eigenen Erfolges wurden: Wer kann schon Tausende von Alben in Eigenregie einzeln verpacken und verschicken? Eben. Untergekommen sind sie beim Label der Toten Hosen. Und wie die deutsche Punkrock-Band nimmt auch die Antilopen Gang selten bis nie ein Blatt vor den Mund in ihren Texten. Ihre Reime sind immer wortgewaltig, oftmals gesellschaftskritisch und gerne auch mit einer herrlichen Ironie unterlegt."
         },
         {
             "day":"sa",
-            "name":"Paul Kalkbrenner",
-            "time":"00.30",
-            "stage":"Hauptbühne",
+            "name":"Raphael Delan",
+            "time":"16.30",
+            "stage":"Bamboo",
+            "description":"Nach unzähligen Jahren im Untergrund sind sie endgültig im hellen Rampenlicht angekommen. Die Antilopen Gang mit Wurzeln in Düsseldorf und Aachen hat in der Vergangenheit ihre Rap-Songs in Eigenregie veröffentlicht, bis sie Opfer ihres eigenen Erfolges wurden: Wer kann schon Tausende von Alben in Eigenregie einzeln verpacken und verschicken? Eben. Untergekommen sind sie beim Label der Toten Hosen. Und wie die deutsche Punkrock-Band nimmt auch die Antilopen Gang selten bis nie ein Blatt vor den Mund in ihren Texten. Ihre Reime sind immer wortgewaltig, oftmals gesellschaftskritisch und gerne auch mit einer herrlichen Ironie unterlegt."
+        },
+        {
+            "day":"sa",
+            "name":"Trashlimo DJs",
+            "time":"16.45",
+            "stage":"Bacardi",
             "description":"Er ist nicht der erste Kalkbrenner, der auf dem Gurten auftritt. Aber der erste, der als Headliner auf der Hauptbühne steht: Paul Kalkbrenner hat sich diesen Slot verdient. Der deutsche Superstar hat so gut wie alles erreicht, was ein Techno-Musiker erreichen kann: Er füllt die grössten Stadien auf der ganzen Welt, ist hoch angesehen in der Szene und holt sich Spitzenplätze in den Charts – unter anderem auch für sein jüngstes Album «7». All die Erfolge sind für Kalkbrenner kein Grund, einen Gang runter zu schalten. Im Gegenteil, sie sind sein Antrieb, um auch das Gurtenfestival in seinen Bann zu ziehen und mit lautstarken, ekstatischen Techno-Beats zu beschallen."
         },
         {
             "day":"sa",
-            "name":"Tequila Boys",
-            "time":"02.00",
-            "stage":"Waldbühne",
+            "name":"Alex Dallas",
+            "time":"16.45",
+            "stage":"Block",
             "description":"Die unverwüstlichen Berner Rap-Urgesteine Baze und Diens (Wurzel 5) covern sich als The Tequila Boys mit einer wuchtigen Band im Rücken querbeet und mit grösstmöglichem Spassfaktor durch die Musikgeschichte – immer haarscharf am guten Geschmack vorbei. Da werden Klassiker von den Beach Boys bis hin zu Rage Against The Machine abgefeiert. Jüngster Höhepunkt: Die Tequila Boys zollten im legendären Anker in Interlaken Polo Hofer und Hanery Amman Tribut und spielten die «Rumpelstilz»-Songs nach. Die Tequila Boys sind die mit riesengrossem Abstand unterhaltsamste Partyband unserer Breitengrade."
         },
         {
             "day":"sa",
-            "name":"Gramatik",
-            "time":"02.00",
-            "stage":"Zeltbühne",
+            "name":"Nemo",
+            "time":"18.30",
+            "stage":"Bamboo",
             "description":"Er reisst mit einer beeindruckenden Zuverlässigkeit Genre-Barrieren nieder. Der slowenische DJ und Musikproduzent Gramatik hat seine Wurzeln im Jazz, Funk und Soul – und macht auch vor Hip-Hop-Beats keinen Halt. Als ob diese Mischung alleine noch nicht genug wäre, hat sich Gramatik über die Jahre auch stärker in Richtung minimalistischen Techno und Dubstep orientiert. Mit diesen Voraussetzungen ist der Slowene prädestiniert dafür, in der Samstagnacht als letzter Act die Zeltbühne in eine riesige Party zu verwandeln."
         },
         {
-            "day":"so",
-            "name":"Kaya Yanar",
-            "time":"12.00",
-            "stage":"Hauptbühne",
+            "day":"sa",
+            "name":"Scaleazy",
+            "time":"19.15",
+            "stage":"Bamboo",
             "description":"Comedy statt musikalische Matinée am Sonntagmittag: Kaya Yanar sorgt für eine Premiere auf dem Gurten. Der deutsche Comedian mit Wohnsitz in der Schweiz und Wurzeln in der Türkei wird einen Ausschnitt aus seinem neuen Programm «Der Reiz der Schweiz» präsentieren und diesen mit Highlights aus seinen früheren Programmen anreichern. Kaya Yanar ist nicht nur ein äusserst witziger und intelligenter Comedian, sondern für seine besonderen Verdienste um die Völkerverständigung mit der Grünen Palme ausgezeichnet worden."
         },
         {
-            "day":"so",
-            "name":"Marius Baer",
-            "time":"12.45",
-            "stage":"Waldbühne",
+            "day":"sa",
+            "name":"Plattenleger MCW",
+            "time":"20.30",
+            "stage":"Bacardi",
             "description":"«Marius ist ein Ausnahmetalent. Noch nie habe ich in der Schweiz eine solche Stimme gehört.» Das sagt der Hitmill-Erfolgsproduzent Roman Camenzind über den jungen Appenzeller Sänger Marius. Gemeinsam nehmen sie das Debütalbum von Marius auf, um dem fantastischen Singer-Songwriter mit seiner einzigartigen Stimme endlich die Plattform zu bieten, die er schon lange verdient hätte. Beim Waldbühnen-Contest im Bierhübeli konnte Marius das Publikum und die Jury davon überzeugen, dass er tatsächlich ein Ausnahmetalent ist, von dem wir in Zukunft noch sehr viel hören werden."
         },
         {
-            "day":"so",
-            "name":"Namika",
-            "time":"13.00",
-            "stage":"Zeltbühne",
+            "day":"sa",
+            "name":"Kalabrese",
+            "time":"20.30",
+            "stage":"Block",
             "description":"Sie schaffte es beinahe aus dem Nichts auf den hervorragenden siebten Platz beim letztjährigen Bundesvision Song Contest – und dies trotz hochkarätiger Konkurrenz. Namika ist eine junge Sängerin aus Frankfurt mit Wurzeln in Marokko. Und diese kulturellen Voraussetzungen ziehen sich wie ein roter Faden durch die Songs auf ihrem Debüt «Nador»: Hier treffen intelligente deutsche Texte auf verspielte Pop-Songs, stellenweise mit orientalisch-angehauchten Hip-Hop-Beats unterlegt. Die Zeichen stehen endgültig auf Durchbruch für die sympathische Sängerin."
         },
         {
-            "day":"so",
-            "name":"John Newman",
-            "time":"14.00",
-            "stage":"Hauptbühne",
+            "day":"sa",
+            "name":"Pierre Green",
+            "time":"21.45",
+            "stage":"Bamboo",
             "description":"Seine Single «Love Me Again» bescherte ihm den internationalen Durchbruch und hievte den britischen Sänger in seiner Heimat auf den Spitzenplatz in den Charts. Doch schon zuvor machte John Newman auf sich und seine soul-getränkte Stimme aufmerksam, als er für Songs von Rudimental und Alex Clare die Vocals beisteuerte. 2015 erschien mit «Revolve» sein zweites Album, mit dem er nahtlos an die Erfolge des Erstlings «Tribute» anknüpfen konnte und erneut mehr als zwei Handvoll moderner und souliger Pop-Songs mit grossem Mitsing-Potential aufnahm."
         },
         {
-            "day":"so",
-            "name":"Nickless",
-            "time":"15.15",
-            "stage":"Waldbühne",
+            "day":"sa",
+            "name":"The Niceguys",
+            "time":"23.15",
+            "stage":"Bacardi",
             "description":"An den diesjährigen Swiss Music Awards erhielt Nickless für seine Single «Waiting» die Auszeichnung für den Best Hit National. Der junge Zürcher setzte sich in seiner Kategorie gegen die etablierten Musiker Dodo und Müslüm durch. Nickless wurde von «20 Minuten» bereits als der neue Bastian Baker gefeiert. Und so, wie es der Sänger aus der Romandie erfolgreich vorgemacht hat, dürfte auch der Zürcher schon bald die Schweizer Hitparade und die Konzertlokale im ganzen Land erobern. Dafür sorgen die starken Pop-Songs auf seinem Debütalbum «Four Years»."
         },
         {
-            "day":"so",
-            "name":"Jeremy Loops",
-            "time":"15.15",
-            "stage":"Zeltbühne",
+            "day":"sa",
+            "name":"Quarion",
+            "time":"23.15",
+            "stage":"Block",
             "description":"Er mag bei uns noch ein Geheimtipp sein. In seiner Heimat Südafrika ist er hingegen ein gefeierter Star: Jeremy Loops ist ein enorm talentierter und sympathischer Folk-Musiker, der auch Stilrichtungen wie Rap oder Reggae gekonnt in seine Musik einfliessen lässt. Seine Songs strahlen eine Wärme, Weltoffenheit und Fröhlichkeit aus, die jedes Publikum in ihren Bann ziehen und hochgradig ansteckend wirken. «Trading Change», so heisst das Debütalbum des Musikers mit Schweizer Wurzeln, hat definitiv das Zeug, bei uns zum Sommer-Soundtrack dieses Jahres zu werden."
         },
         {
-            "day":"so",
-            "name":"James Bay",
-            "time":"16.30",
-            "stage":"Hauptbühne",
+            "day":"sa",
+            "name":"Kenjiro",
+            "time":"00.30",
+            "stage":"Bamboo",
             "description":"An ihm gab es in den letzten Monaten kein Vorbeikommen. James Bay tauchte scheinbar aus dem Nichts auf – und spielte sich von dort weltweit in die Herzen der Musikliebhaber. Seine Shows sind seither allesamt restlos ausverkauft. Seine Single «Hold Back the River» gehörte im letzten Jahr auf jede Bestenliste. Und das Album «Chaos And The Calm» stand weltweit zuoberst in den Charts – und hat unzählige Preise abgeräumt. Es ist eine riesengrosse Ehre, James Bay und seine soul-getränkten Rocksongs auf dem Gurtenfestival begrüssen zu dürfen."
         },
         {
-            "day":"so",
-            "name":"Halunke",
-            "time":"18.00",
-            "stage":"Waldbühne",
+            "day":"sa",
+            "name":"Bravo Hits DJ-Team",
+            "time":"02.00",
+            "stage":"Bacardi",
             "description":"«Easy.» So heisst die neue EP der Halunke. Und die fünf Songs darauf halten, was der Titel verspricht. Die Berner Band um Frontmann und Mastermind Christian Häni (ehemals Frontmann bei Scream) spielt eingängigen Mundart-Pop mit Ecken und Kanten, prägnanten Gitarren und aus dem Leben gegriffenen Texten. Für den Song «Schiffbruch» konnten die Halunken sogar auf die Unterstützung von niemand geringerem als Patent-Ochsner-Frontmann Büne Huber zählen."
         },
         {
-            "day":"so",
-            "name":"Half Moon Run",
-            "time":"18.00",
-            "stage":"Zeltbühne",
+            "day":"sa",
+            "name":"Ripperton",
+            "time":"02.00",
+            "stage":"Block",
             "description":"Es ist nur noch eine Frage der Zeit, bis Half Moon Run auch in Europa für ausverkaufte Stadien sorgen. Die junge Band aus Montreal hat in den Staaten und in Kanada mit ihren komplex arrangierten und von mehrstimmigem Gesang getragenen Folk-Songs innert kürzester Zeit Abertausende von enthusiastischen Konzertbesuchern in ihren Bann gezogen. Ihr im letzten Jahr erschienenes Album «Sun Leads Me On» hat die Folk-Rock-Messlatte gleich ein paar harmonische Meter höher gehängt und ist mitverantwortlich dafür, dass Half Moon Run zu den grossen Entdeckungen des diesjährigen Gurtenfestivals gehören werden."
         },
         {
-            "day":"so",
-            "name":"Rudimental",
-            "time":"19.30",
-            "stage":"Hauptbühne",
+            "day":"sa",
+            "name":"Benji B",
+            "time":"03.15",
+            "stage":"Bamboo",
             "description":"Bastille, Ed Sheeran, John Newman und Emeli Sandé sind nur ein paar der prominenten Namen, die in der Vergangenheit dem Kollektiv aus dem Londoner Stadtteil Hackney ihre Stimme geliehen haben. Das erstaunt nicht: Keine andere Band aus der Drum and Bass Ecke kann den melodiösen Stücken von Rudimental derzeit auch nur annähernd das Wasser reichen. An ihren Live-Shows reissen die vier Musiker ohne grosse Aufwärmphase alles mit, was nicht niet- und nagelfest ist. Genauso kompromisslos gehen sie auch in den Charts zur Sache: Ihr jüngstes Werk «We the Generation» stürmte in ihrer Heimat ohne Umschweife direkt auf den ersten Platz."
         },
         {
@@ -356,6 +363,69 @@
             "time":"21.00",
             "stage":"Zeltbühne",
             "description":"So viel dürfen wir an dieser Stelle bereits verraten: Caravan Palace werden mal so gross wie die legendäre Parov Stelar Band. Mindestens! Der Vergleich drängt sich natürlich wegen des Musikstils auf. Caravan Palace starteten als Gypsy-Jazz- und Swing-Experiment und drifteten danach immer stärker in Richtung Electro-Swing ab. Mit Bläsern und Streichern im Rücken, sorgen die Franzosen für grandiose Stimmung wo immer sie auftreten und werden als letzte Band für einen ausgelassenen Ausklang des Gurtenfestivals garantieren."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
+        },
+        {
+            "day":"so",
+            "name":"Troubas Kater",
+            "time":"21.00",
+            "stage":"Waldbühne",
+            "description":"Schwermütige Texte, breite Bläsersätze, laute Gitarren, erdige Drums und ein prägnantes Akkordeon. Das ist die Basis für den fulminanten Stilmix der Berner Senkrechtstarter Troubas Kater. Auf ihrem Debütalbum «Verdammte Novämber» mischt die Band Rap, Folk, Chanson, Pop und Tango zu einem mitreissenden und rumpelnden Musikmix. Diese Vielfalt brachte der Gruppe um den charismatischen Frontmann QC an den Swiss Music Awards eine Nominierung als «Best Talent» ein."
         }
     ]
 }

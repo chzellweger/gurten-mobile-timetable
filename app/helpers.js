@@ -19,6 +19,14 @@ function getLiteralDay(day) {
   return literalDay;
 }
 
+function getLiteralStage(stage) {
+  if (stage === 'stages') {
+    return 'Bühnen';
+  } else {
+    return 'Zelte';
+  }
+}
+
 function getDay() {
   const date = new Date();
   const day = date.getDay();
@@ -34,4 +42,4 @@ function getDay() {
   }
 }
 
-export { getLiteralDay, getDay };
+export { getLiteralDay, getLiteralStage, getDay };
