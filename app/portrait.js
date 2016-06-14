@@ -21,7 +21,7 @@ function Portrait(props) {
   return (
     <div className="portrait">
       <div className="day-name-wrapper">
-        <div className={`day-name ${props.day}`}>{thisLiteralDay}</div>
+        <div className={`day-name day-name-portrait ${props.day}`}>{thisLiteralDay}</div>
       </div>
       <Day
         day={props.day}
