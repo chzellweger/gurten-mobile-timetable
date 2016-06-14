@@ -1,9 +1,9 @@
 // turn on swipe-events
 
 // min x delta swipe for horizontal swipe
-const MIN_X = 30;
+const MIN_X = 35;
 // max y delta for horizontal swipe
-const MAX_Y = 50;
+const MAX_Y = 40;
 
 const eventObj = {
   startX: 0,
@@ -44,7 +44,6 @@ function handleEnd() {
 }
 
 function swipeInit(el, action) {
-  console.log(el);
   el.addEventListener('touchstart', handleStart, false);
   el.addEventListener('touchmove', handleMove, false);
   el.addEventListener('touchend', handleEnd, false);
@@ -58,34 +57,4 @@ function swipeKill(el) {
   callback = undefined;
 }
 
-const handleSwipe = (direction) => {
-  if (direction === 'right') {
-    switch (this.state.day) {
-      case this.state.day === 'do':
-        this.setState({ day: 'fr' });
-        break;
-      case this.state.day === 'fr':
-        this.setState({ day: 'sa' });
-        break;
-      case this.state.day === 'sa':
-        this.setState({ day: 'so' });
-        break;
-      default: this.setState({ day: 'do' });
-    }
-  } else {
-    switch (this.state.day) {
-      case this.state.day === 'do':
-        this.setState({ day: 'so' });
-        break;
-      case this.state.day === 'so':
-        this.setState({ day: 'sa' });
-        break;
-      case this.state.day === 'sa':
-        this.setState({ day: 'fr' });
-        break;
-      default: this.setState({ day: 'do' });
-    }
-  }
-};
-
-export { swipeInit, swipeKill, handleSwipe };
+export { swipeInit, swipeKill };

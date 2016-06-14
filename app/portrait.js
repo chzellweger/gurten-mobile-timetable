@@ -1,34 +1,60 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { findDOMNode } from 'react-dom';
 import jsonQuery from 'json-query';
 
 import Day from './day';
 
-import { getLiteralDay } from './helpers';
+import { swipeInit, swipeKill, getLiteralDay } from './helpers';
 
 const propTypes = {
+  swipeHandler: React.PropTypes.func.isRequired,
   day: React.PropTypes.string.isRequired,
   data: React.PropTypes.object.isRequired
 };
 
-function Portrait(props) {
-  const literalDay = getLiteralDay(props.day);
-  let thisLiteralDay = literalDay.long;
+class Portrait extends Component {
+  constructor(props) {
+    super(props);
 
-  const selected = jsonQuery(`shows[*day=${props.day}]`, {
-    data: props.data
-  });
+    this.handleSwipe = this.handleSwipe.bind(this);
+  }
 
-  return (
-    <div className="portrait">
-      <div className="day-name-wrapper">
-        <div className={`day-name day-name-portrait ${props.day}`}>{thisLiteralDay}</div>
+  componentDidMount() {
+    const landscape = findDOMNode(this);
+    swipeInit(landscape, this.handleSwipe);
+  }
+
+  componentWillUnmount() {
+    const landscape = findDOMNode(this);
+    swipeKill(landscape, this.handleSwipe);
+  }
+
+  handleSwipe(direction) {
+    this.props.swipeHandler(direction);
+  }
+
+  render() {
+    const literalDay = getLiteralDay(this.props.day);
+    const thisLiteralDay = literalDay.long;
+
+    const selected = jsonQuery(`shows[*day=${this.props.day}]`, {
+      data: this.props.data
+    });
+
+    return (
+      <div className="portrait">
+        <div className="day-name-wrapper">
+          <div className={`day-name day-name-portrait ${this.props.day}`}>
+            {`<-- ${thisLiteralDay} -->`}
+          </div>
+        </div>
+        <Day
+          day={this.props.day}
+          data={selected.value}
+        />
       </div>
-      <Day
-        day={props.day}
-        data={selected.value}
-      />
-    </div>
-  );
+    );
+  }
 }
 
 Portrait.propTypes = propTypes;

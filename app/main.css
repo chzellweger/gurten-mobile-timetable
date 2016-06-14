@@ -45,7 +45,12 @@ button {
 }
 
 .day-name-portrait {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  font-size: 2.5em;
+}
+
+.day-name-landscape {
+
 }
 
 .stages {

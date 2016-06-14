@@ -1,42 +1,68 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { findDOMNode } from 'react-dom';
+
+import { swipeInit, swipeKill, getLiteralDay } from './helpers';
 import jsonQuery from 'json-query';
 
 import Stage from './stage';
 
-import { getLiteralDay } from './helpers';
-
 const propTypes = {
   day: React.PropTypes.string.isRequired,
   stages: React.PropTypes.array.isRequired,
-  data: React.PropTypes.object.isRequired
+  data: React.PropTypes.object.isRequired,
+  swipeHandler: React.PropTypes.func.isRequired
 };
 
-function Landscape(props) {
-  const literalDay = getLiteralDay(props.day);
-  let thisLiteralDay = literalDay.long;
-  let selected = jsonQuery(`shows[*day=${props.day}]`, {
-    data: props.data
-  });
+class Landscape extends Component {
+  constructor(props) {
+    super(props);
 
-  let children = props.stages.map(key => (
-    <Stage
-      key={key}
-      stage={key}
-      data={selected}
-      className="stage"
-    />
-      ));
+    this.handleSwipe = this.handleSwipe.bind(this);
+  }
 
-  return (
-    <div className="landscape">
-      <div className="stages-container">
-        <div className="day-name-wrapper">
-          <div className={`day-name ${props.day}`}>{thisLiteralDay}</div>
+  componentDidMount() {
+    const landscape = findDOMNode(this);
+    swipeInit(landscape, this.handleSwipe);
+  }
+
+  componentWillUnmount() {
+    const landscape = findDOMNode(this);
+    swipeKill(landscape, this.handleSwipe);
+  }
+
+  handleSwipe(direction) {
+    this.props.swipeHandler(direction);
+  }
+
+  render() {
+    const literalDay = getLiteralDay(this.props.day);
+    const thisLiteralDay = literalDay.long;
+    let selected = jsonQuery(`shows[*day=${this.props.day}]`, {
+      data: this.props.data
+    });
+
+    let children = this.props.stages.map(key => (
+      <Stage
+        key={key}
+        stage={key}
+        data={selected}
+        className="stage"
+      />
+        ));
+
+    return (
+      <div className="landscape">
+        <div className="stages-container">
+          <div className="day-name-wrapper">
+            <div className={`day-name day-name-landscape ${this.props.day}`}>
+              {`<-- ${thisLiteralDay} -->`}
+            </div>
+          </div>
+          <div className="stages">{children}</div>
         </div>
-        <div className="stages">{children}</div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 Landscape.propTypes = propTypes;

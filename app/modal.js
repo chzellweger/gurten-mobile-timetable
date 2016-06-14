@@ -13,6 +13,7 @@ const Modal = (props) => (
     transitionEnter
     transitionLeave
     transitionName="slidePortrait"
+    transitionAppearTimeout={0}
     transitionEnterTimeout={1500}
     transitionLeaveTimeout={0}
   >

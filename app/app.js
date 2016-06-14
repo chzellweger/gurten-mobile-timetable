@@ -5,7 +5,7 @@ import Portrait from './portrait';
 import DayChooser from './dayChooser';
 import ContextChooser from './contextChooser';
 
-import { getDay } from './helpers';
+import { getDay, handleSwipe } from './helpers';
 
 import DataStages from './data-stages';
 import DataTents from './data-tents';
@@ -27,6 +27,7 @@ export default class App extends Component {
 
     this.setDay = this.setDay.bind(this);
     this.setContext = this.setContext.bind(this);
+    this.swipeHandler = this.swipeHandler.bind(this);
   }
 
   componentWillMount() {
@@ -77,6 +78,52 @@ export default class App extends Component {
     }
   }
 
+  swipeHandler(direction) {
+    if (direction === 'right') {
+      switch (this.state.day) {
+        case 'do':
+          console.log('case: right && do');
+          this.setState({ day: 'fr' });
+          break;
+        case 'fr':
+          console.log('case: right && fr');
+          this.setState({ day: 'sa' });
+          break;
+        case 'sa':
+          console.log('case: right && sa');
+          this.setState({ day: 'so' });
+          break;
+        case 'so':
+          console.log('case: right && so');
+          this.setState({ day: 'do' });
+          break;
+        default:
+          this.setState({ day: 'do' });
+          console.log('right && default case');
+      }
+    } else {
+      switch (this.state.day) {
+        case 'do':
+          this.setState({ day: 'so' });
+          console.log('case: left && do');
+          break;
+        case 'so':
+          this.setState({ day: 'sa' });
+          console.log('case: left && so');
+          break;
+        case 'sa':
+          this.setState({ day: 'fr' });
+          console.log('case: left && sa');
+          break;
+        case 'fr':
+          this.setState({ day: 'do' });
+          console.log('case: left && fr');
+          break;
+        default: this.setState({ day: 'do' });
+      }
+    }
+  }
+
   render() {
     let appContext;
     let renderOrientationView;
@@ -94,6 +141,7 @@ export default class App extends Component {
           days={this.props.config.days}
           day={this.state.day}
           setDay={this.setDay}
+          swipeHandler={this.swipeHandler}
         />);
     } else {
       renderOrientationView =
@@ -103,6 +151,7 @@ export default class App extends Component {
           day={this.state.day}
           stages={appContext}
           setDay={this.setDay}
+          swipeHandler={this.swipeHandler}
         />);
     }
 
