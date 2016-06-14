@@ -14,8 +14,9 @@ body {
 h1 {
   color: #ffffff;
   font-size: 3em;
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
   text-decoration: line-through;
+  font-weight: 900;
 
 }
 
@@ -48,12 +49,13 @@ button {
 }
 
 .day-name-portrait {
-  text-decoration: underline;
   font-size: 2.5em;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
 .day-name-landscape {
-
+  margin-bottom: 20px;
 }
 
 .stages {
@@ -151,6 +153,8 @@ button {
 
 .modal-content {
   max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.5em;
   padding-bottom: 50px;
   box-sizing: border-box;
@@ -164,7 +168,15 @@ button {
   /* allow vertical scrolling if required */
   overflow-x: hidden;
   overflow-y: auto;
+}
 
+.modal-title {
+  font-size: 1.5em;
+}
+
+.modal-infos {
+  font-size: 0.9em;
+  margin-bottom: 20px;
 }
 
 /*CSSTransitionGroup*/
