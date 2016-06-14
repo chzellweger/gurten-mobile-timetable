@@ -1,3 +1,5 @@
+import { swipeInit, swipeKill } from './helpers_swiper';
+// translate day
 function getLiteralDay(day) {
   const thisDay = day;
   const literalDay = {};
@@ -19,6 +21,7 @@ function getLiteralDay(day) {
   return literalDay;
 }
 
+// translate stage
 function getLiteralStage(stage) {
   if (stage === 'stages') {
     return 'Bühnen';
@@ -26,6 +29,8 @@ function getLiteralStage(stage) {
     return 'Zelte';
   }
 }
+
+// get actual day
 
 function getDay() {
   const date = new Date();
@@ -42,4 +47,5 @@ function getDay() {
   }
 }
 
-export { getLiteralDay, getLiteralStage, getDay };
+export { getLiteralDay, getLiteralStage, getDay, swipeInit, swipeKill };
+
