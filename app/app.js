@@ -5,7 +5,7 @@ import Portrait from './portrait';
 import DayChooser from './dayChooser';
 import ContextChooser from './contextChooser';
 
-import { getDay, handleSwipe } from './helpers';
+import { getDay } from './helpers';
 
 import DataStages from './data-stages';
 import DataTents from './data-tents';
@@ -146,10 +146,10 @@ export default class App extends Component {
     } else {
       renderOrientationView =
         (<Landscape
-          data={this.state.data}
-          days={this.props.config.days}
           day={this.state.day}
+          days={this.props.config.days}
           stages={appContext}
+          data={this.state.data}
           setDay={this.setDay}
           swipeHandler={this.swipeHandler}
         />);

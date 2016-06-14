@@ -1,9 +1,9 @@
 // turn on swipe-events
 
 // min x delta swipe for horizontal swipe
-const MIN_X = 35;
+const MIN_X = 100;
 // max y delta for horizontal swipe
-const MAX_Y = 40;
+const MAX_Y = 50;
 
 const eventObj = {
   startX: 0,
@@ -41,6 +41,11 @@ function handleEnd() {
   if (callback && code) {
     callback(code);
   }
+  // reset eventObj
+  eventObj.startX = 0;
+  eventObj.startY = 0;
+  eventObj.endX = 0;
+  eventObj.endY = 0;
 }
 
 function swipeInit(el, action) {
