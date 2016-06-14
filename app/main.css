@@ -12,9 +12,8 @@ body {
 }
 
 h1 {
-  color: #ffffff;
+  color: #000000;
   font-size: 3em;
-  /*font-family: sans-serif;*/
   text-decoration: line-through;
   font-weight: 900;
 
@@ -147,7 +146,7 @@ button {
   height:100%;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: #d9d9d9; /*rgba(0,0,0,0.4); Black w/ opacity */
-  padding: 10px 10px 2em 10px;
+  padding-top: 20px;
   overflow: scroll;
 }
 
@@ -155,19 +154,26 @@ button {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.5em;
   padding-bottom: 50px;
+  font-size: 1.5em;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
-  width: 100%;
+  /*width: 100%;*/
   height: auto;       /* allow to fit content (if smaller)... */
   max-height: 100%;   /* ... but make sure it does not overflow browser window */
 
   /* allow vertical scrolling if required */
   overflow-x: hidden;
   overflow-y: auto;
+
+  text-align: justify;
+  word-break: all;
+  /*-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;*/
 }
 
 .modal-title {
