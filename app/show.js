@@ -24,13 +24,19 @@ class Show extends Component {
   }
 
   render() {
+    const common = (
+      <div>
+        <div className="show-time">{this.props.showData.time}</div>
+        <div className="show-name band">{this.props.showData.name}</div>
+      </div>
+      );
+
     if (this.state.modalOpen) {
       if (this.props.insideStage) {
         return (
           <div>
             <div className="show" onClick={this.handleModal}>
-              <div className="show-time">{this.props.showData.time}</div>
-              <div className="show-name band">{this.props.showData.name}</div>
+              {common}
             </div>
             <Modal
               content={this.props.showData}
@@ -42,8 +48,7 @@ class Show extends Component {
         return (
           <div>
             <div className="show" onClick={this.handleModal}>
-              <div className="show-time">{this.props.showData.time}</div>
-              <div className="show-name band">{this.props.showData.name}</div>
+              {common}
               <div className="show-stage">{this.props.showData.stage}</div>
             </div>
             <Modal
@@ -57,15 +62,13 @@ class Show extends Component {
       if (this.props.insideStage) {
         return (
           <div className="show" onClick={this.handleModal}>
-            <div className="show-time">{this.props.showData.time}</div>
-            <div className="show-name band">{this.props.showData.name}</div>
+            {common}
           </div>
         );
       } else {
         return (
           <div className="show" onClick={this.handleModal}>
-            <div className="show-time">{this.props.showData.time}</div>
-            <div className="show-name band">{this.props.showData.name}</div>
+            {common}
             <div className="show-stage">{this.props.showData.stage}</div>
           </div>
           );
