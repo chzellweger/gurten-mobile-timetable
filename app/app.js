@@ -82,42 +82,33 @@ export default class App extends Component {
     if (direction === 'right') {
       switch (this.state.day) {
         case 'do':
-          console.log('case: right && do');
           this.setState({ day: 'fr' });
           break;
         case 'fr':
-          console.log('case: right && fr');
           this.setState({ day: 'sa' });
           break;
         case 'sa':
-          console.log('case: right && sa');
           this.setState({ day: 'so' });
           break;
         case 'so':
-          console.log('case: right && so');
           this.setState({ day: 'do' });
           break;
         default:
           this.setState({ day: 'do' });
-          console.log('right && default case');
       }
     } else {
       switch (this.state.day) {
         case 'do':
           this.setState({ day: 'so' });
-          console.log('case: left && do');
           break;
         case 'so':
           this.setState({ day: 'sa' });
-          console.log('case: left && so');
           break;
         case 'sa':
           this.setState({ day: 'fr' });
-          console.log('case: left && sa');
           break;
         case 'fr':
           this.setState({ day: 'do' });
-          console.log('case: left && fr');
           break;
         default: this.setState({ day: 'do' });
       }
@@ -146,10 +137,10 @@ export default class App extends Component {
     } else {
       renderOrientationView =
         (<Landscape
-          day={this.state.day}
-          days={this.props.config.days}
-          stages={appContext}
           data={this.state.data}
+          days={this.props.config.days}
+          day={this.state.day}
+          stages={appContext}
           setDay={this.setDay}
           swipeHandler={this.swipeHandler}
         />);
