@@ -31,6 +31,13 @@ class Show extends Component {
       </div>
       );
 
+    const modal = (
+      <Modal
+        content={this.props.showData}
+        handleModal={this.handleModal}
+      />
+      );
+
     if (this.state.modalOpen) {
       if (this.props.insideStage) {
         return (
@@ -38,10 +45,7 @@ class Show extends Component {
             <div className="show" onClick={this.handleModal}>
               {common}
             </div>
-            <Modal
-              content={this.props.showData}
-              handleModal={this.handleModal}
-            />
+            {modal}
           </div>
             );
       } else {
@@ -51,10 +55,7 @@ class Show extends Component {
               {common}
               <div className="show-stage">{this.props.showData.stage}</div>
             </div>
-            <Modal
-              content={this.props.showData}
-              handleModal={this.handleModal}
-            />
+            {modal}
           </div>
           );
       }

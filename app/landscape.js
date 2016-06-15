@@ -37,6 +37,7 @@ class Landscape extends Component {
   render() {
     const literalDay = getLiteralDay(this.props.day);
     const thisLiteralDay = literalDay.long;
+
     let selected = jsonQuery(`shows[*day=${this.props.day}]`, {
       data: this.props.data
     });
