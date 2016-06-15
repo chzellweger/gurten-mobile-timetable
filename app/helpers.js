@@ -6,7 +6,10 @@ const helpers = {
 
   getLiteralDay(day) {
     const thisDay = day;
-    const literalDay = {};
+    const literalDay = {
+      long: null,
+      short: null
+    };
 
     switch (thisDay) {
       case 'do':

@@ -14,8 +14,10 @@ body {
 h1 {
   color: #000000;
   font-size: 3em;
-  text-decoration: line-through;
+  /*text-decoration: line-through;*/
   font-weight: 900;
+  font-family: "Futura";
+  text-align: center;
 
 }
 
@@ -50,12 +52,14 @@ button {
 
 .day-name-portrait {
   font-size: 2.5em;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   margin-bottom: 20px;
+  font-family: "Futura", serif;
 }
 
 .day-name-landscape {
   margin-bottom: 20px;
+  font-family: "Futura", serif;
 }
 
 .stages {
@@ -161,7 +165,6 @@ button {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
-  /*width: 100%;*/
   height: auto;       /* allow to fit content (if smaller)... */
   max-height: 100%;   /* ... but make sure it does not overflow browser window */
 
@@ -175,6 +178,11 @@ button {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.modal-title, .modal-infos {
+  font-family: "Futura", serif;
+  text-align: center;
 }
 
 .modal-title {

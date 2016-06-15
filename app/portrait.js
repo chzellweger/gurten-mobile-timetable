@@ -45,7 +45,7 @@ class Portrait extends Component {
       <div className="portrait">
         <div className="day-name-wrapper">
           <div className={`day-name day-name-portrait ${this.props.day}`}>
-            {`<-- ${thisLiteralDay} -->`}
+            {`<= ${thisLiteralDay} =>`}
           </div>
         </div>
         <Day

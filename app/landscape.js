@@ -56,7 +56,7 @@ class Landscape extends Component {
         <div className="stages-container">
           <div className="day-name-wrapper">
             <div className={`day-name day-name-landscape ${this.props.day}`}>
-              {`<-- ${thisLiteralDay} -->`}
+              {`<= ${thisLiteralDay} =>`}
             </div>
           </div>
           <div className="stages">{children}</div>
