@@ -5,7 +5,7 @@ import Portrait from './portrait';
 import DayChooser from './dayChooser';
 import ContextChooser from './contextChooser';
 
-import { getDay } from './helpers';
+import { helpers as h } from './helpers';
 
 import DataStages from './data-stages';
 import DataTents from './data-tents';
@@ -31,7 +31,7 @@ export default class App extends Component {
   }
 
   componentWillMount() {
-    const thisDay = getDay();
+    const thisDay = h.getDay();
 
     this.setState({
       day: thisDay

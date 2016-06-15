@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import { getLiteralDay } from './helpers';
+import { helpers as h } from './helpers';
 
 const propTypes = {
   setDay: React.PropTypes.func.isRequired,
@@ -15,7 +15,7 @@ function DayChooser(props) {
   };
   let children = props.items.map((key) => {
     buttonData.key = key;
-    buttonData.name = getLiteralDay(key);
+    buttonData.name = h.getLiteralDay(key);
 
     return (
       <Button

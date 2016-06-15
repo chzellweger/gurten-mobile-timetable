@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { findDOMNode } from 'react-dom';
 
-import { swipeInit, swipeKill, getLiteralDay } from './helpers';
+import { helpers as h } from './helpers';
 import jsonQuery from 'json-query';
 
 import Stage from './stage';
@@ -22,12 +22,12 @@ class Landscape extends Component {
 
   componentDidMount() {
     const landscape = findDOMNode(this);
-    swipeInit(landscape, this.handleSwipe);
+    h.swipeInit(landscape, this.handleSwipe);
   }
 
   componentWillUnmount() {
     const landscape = findDOMNode(this);
-    swipeKill(landscape, this.handleSwipe);
+    h.swipeKill(landscape, this.handleSwipe);
   }
 
   handleSwipe(direction) {
@@ -35,7 +35,7 @@ class Landscape extends Component {
   }
 
   render() {
-    const literalDay = getLiteralDay(this.props.day);
+    const literalDay = h.getLiteralDay(this.props.day);
     const thisLiteralDay = literalDay.long;
 
     let selected = jsonQuery(`shows[*day=${this.props.day}]`, {

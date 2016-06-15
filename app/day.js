@@ -1,6 +1,6 @@
 import React from 'react';
 import Shows from './shows';
-import { getLiteralDay } from './helpers';
+import { helpers as h } from './helpers';
 
 const propTypes = {
   day: React.PropTypes.string.isRequired,
@@ -8,7 +8,7 @@ const propTypes = {
 };
 
 function Day(props) {
-  const literalDay = getLiteralDay(props.day);
+  const literalDay = h.getLiteralDay(props.day);
   let thisLiteralDay = literalDay.long;
 
   return (

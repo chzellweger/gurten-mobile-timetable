@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import { getLiteralStage } from './helpers';
+import { helpers as h } from './helpers';
 
 const propTypes = {
   setContext: React.PropTypes.func.isRequired,
@@ -10,7 +10,7 @@ const propTypes = {
 function ContextChooser(props) {
   let clickHandler = props.setContext;
   let children = props.items.map((key) => {
-    let name = getLiteralStage(key);
+    let name = h.getLiteralStage(key);
 
     return (
       <Button

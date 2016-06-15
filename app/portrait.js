@@ -4,7 +4,7 @@ import jsonQuery from 'json-query';
 
 import Day from './day';
 
-import { swipeInit, swipeKill, getLiteralDay } from './helpers';
+import { helpers as h } from './helpers';
 
 const propTypes = {
   swipeHandler: React.PropTypes.func.isRequired,
@@ -21,12 +21,12 @@ class Portrait extends Component {
 
   componentDidMount() {
     const landscape = findDOMNode(this);
-    swipeInit(landscape, this.handleSwipe);
+    h.swipeInit(landscape, this.handleSwipe);
   }
 
   componentWillUnmount() {
     const landscape = findDOMNode(this);
-    swipeKill(landscape, this.handleSwipe);
+    h.swipeKill(landscape, this.handleSwipe);
   }
 
   handleSwipe(direction) {
@@ -34,7 +34,7 @@ class Portrait extends Component {
   }
 
   render() {
-    const literalDay = getLiteralDay(this.props.day);
+    const literalDay = h.getLiteralDay(this.props.day);
     const thisLiteralDay = literalDay.long;
 
     const selected = jsonQuery(`shows[*day=${this.props.day}]`, {
