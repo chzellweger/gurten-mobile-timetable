@@ -39,6 +39,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
+    // create mediaquery-list
     const mediaQueryList = window.matchMedia('(orientation: portrait)');
 
     // If there are matches, we're in portrait
@@ -119,12 +120,14 @@ export default class App extends Component {
     let appContext;
     let renderOrientationView;
 
+    // get context-options to render for <ContextChooser />
     if (this.state.context === 'stages') {
       appContext = this.props.config.stages;
     } else {
       appContext = this.props.config.tents;
     }
 
+    // render main-component according to device-orientation
     if (this.state.orientation === 'portrait') {
       renderOrientationView =
         (<Portrait

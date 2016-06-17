@@ -21,11 +21,13 @@ class Landscape extends Component {
   }
 
   componentDidMount() {
+    // add the swipe-listener to element
     const landscape = findDOMNode(this);
     h.swipeInit(landscape, this.handleSwipe);
   }
 
   componentWillUnmount() {
+    // remove the swipe-listener
     const landscape = findDOMNode(this);
     h.swipeKill(landscape, this.handleSwipe);
   }
@@ -38,6 +40,7 @@ class Landscape extends Component {
     const literalDay = h.getLiteralDay(this.props.day);
     const thisLiteralDay = literalDay.long;
 
+    // get the objects from the data-json with matching day
     let selected = jsonQuery(`shows[*day=${this.props.day}]`, {
       data: this.props.data
     });
