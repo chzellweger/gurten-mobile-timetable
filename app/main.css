@@ -25,6 +25,7 @@ h1 {
   width: 100%;
   display: flex;
   display: -webkit-flex;
+  justify-content: center;
 }
 
 button {
@@ -33,6 +34,14 @@ button {
   flex-grow: 1;
   -webkit-flex-grow: 1;
   font-family: "Georgia", serif;
+}
+
+#stages {
+  width: 50%;
+}
+
+#tents {
+  width: 50%
 }
 
 .app {
